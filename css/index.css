@@ -3584,7 +3584,6 @@ h1.page-title + .tag-cloud-list {
   margin-right: 4px;
 }
 #post-info #post-meta a {
-  color: var(--light-grey);
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -6248,6 +6247,10 @@ div#category{
     }
 [data-theme='dark']
     #post-info #post-meta {
+        color: var(--light-grey);
+    }
+[data-theme='dark']
+    #post-info #post-meta a{
         color: var(--light-grey);
     }
 
