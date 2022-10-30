@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>微信视频号下载器</title>
+      <link href="/2022/10/07/1/"/>
+      <url>/2022/10/07/1/</url>
+      
+        <content type="html"><![CDATA[<div class="note modern"><p>一款双端视频号下载器，操作更简单</p></div><h2 id="界面预览"><a href="#界面预览" class="headerlink" title="界面预览"></a>界面预览</h2><p><img src="https://m.xbeta.zone/wp-content/uploads/2022/07/2022071602300873.jpg" alt="avatar"><br>   软件来自Github的lecepin大神，软件整体见面很简洁。</p><h3 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a>操作步骤</h3><p>1️⃣首次打开需要进行初始化，此过程会进行证书安装<br><img src="https://m.xbeta.zone/wp-content/uploads/2022/07/2022071602300741.png" alt="avatar"><br>2️⃣点击 “是”，安装后，就可以正常使用了<br><img src="https://m.xbeta.zone/wp-content/uploads/2022/07/2022071602300784-e1657938880786.png" alt="avatar"></p><h2 id="Mac-系统处理"><a href="#Mac-系统处理" class="headerlink" title="Mac 系统处理"></a>Mac 系统处理</h2><p>由于新 Mac OS 不支持非交互式执行 sudo 命令，所以本软件初始化时会自动将命令复制到剪切板,你只需要打开 “终端”，粘贴一下就可以了，然后回车执行，效果如下图所示<br><img src="https://m.xbeta.zone/wp-content/uploads/2022/07/2022071602300826.png" alt="avatar"></p><h2 id="软件使用"><a href="#软件使用" class="headerlink" title="软件使用"></a>软件使用</h2><h4 id="运行本软件"><a href="#运行本软件" class="headerlink" title="运行本软件"></a>运行本软件</h4><h4 id="打开视频号的视频进行播放，如下图视频："><a href="#打开视频号的视频进行播放，如下图视频：" class="headerlink" title="打开视频号的视频进行播放，如下图视频："></a>打开视频号的视频进行播放，如下图视频：</h4><p><img src="https://m.xbeta.zone/wp-content/uploads/2022/07/2022071602300621.png" alt="avatar"></p><h4 id="本软件会自动捕获到该视频，可以点击-“预览”-按钮来确认是否拦截正确"><a href="#本软件会自动捕获到该视频，可以点击-“预览”-按钮来确认是否拦截正确" class="headerlink" title="本软件会自动捕获到该视频，可以点击 “预览” 按钮来确认是否拦截正确"></a>本软件会自动捕获到该视频，可以点击 “预览” 按钮来确认是否拦截正确</h4><p><img src="https://m.xbeta.zone/wp-content/uploads/2022/07/2022071602300670-e1657938743157.png" alt="avatar"></p><h4 id="点击-“下载”-按钮进行下载"><a href="#点击-“下载”-按钮进行下载" class="headerlink" title="点击 “下载” 按钮进行下载"></a>点击 “下载” 按钮进行下载</h4><p><img src="https://m.xbeta.zone/wp-content/uploads/2022/07/2022071602300555-e1657938766371-300x222.png" alt="avatar"></p><h4 id="下载完成后点击“查看”即可直接播放"><a href="#下载完成后点击“查看”即可直接播放" class="headerlink" title="下载完成后点击“查看”即可直接播放"></a>下载完成后点击“查看”即可直接播放</h4><p><img src="https://m.xbeta.zone/wp-content/uploads/2022/07/2022071602300791.png" alt="avatar"></p><h2 id="主要特点"><a href="#主要特点" class="headerlink" title="主要特点"></a>主要特点</h2><p>1.支持实时捕获视频号的视频地址<br>2.捕获后，可进行预览和下载<br>——<br>📱设备支持∶win&amp;mac<br>——</p><h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2><h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>请关注微信公众号 XBeta科技<br>点击下方「更多」进入下载<br>喜欢的话点个分享，让更多的人看见，好东西不能独享</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 视频号 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2022/09/28/hello-world/"/>
+      <url>/2022/09/28/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
