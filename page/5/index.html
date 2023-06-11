@@ -1,0 +1,2359 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AGoden - 能吹就是福</title>
+<noscript>开启Javascript是必要的</noscript>
+<link rel="icon" type="image/x-icon" href="/img/avatar.webp">
+<link rel="apple-touch-icon" href="/img/avatar.webp">
+<meta name="apple-mobile-web-app-title" content="AGoden">
+<link rel="bookmark" href="/img/avatar.webp">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/img/avatar.webp">
+<meta name="description" content="路漫漫其修远兮，吾将上下而求索">
+<meta name="theme-color" content="#1C1C1F">
+<link rel="stylesheet" href="/css/var.css">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/custom.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+
+<link rel="stylesheet" href="/lib/snackbar.min.css">
+
+
+<script src="/lib/qrcode.min.js"></script>
+
+
+    
+<script src="https://cdn.staticfile.org/twikoo/1.6.10/twikoo.all.min.js"></script>
+
+
+
+    
+<script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/instantsearch.js/4.39.0/instantsearch.production.min.js"></script>
+
+    
+<script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/algoliasearch/4.12.1/algoliasearch-lite.umd.min.js"></script>
+
+
+
+
+<script>var GLOBALCONFIG = {"root":"/","runtime":"2021-12-12 00:00:00","lazyload":{"enable":true,"error":"/img/acrylic.png"},"hightlight":{"enable":false,"limit":200},"lightbox":true,"randomlinks":true,"lang":{"theme":{"dark":"已切换至深色模式","light":"已切换至浅色模式"},"copy":{"success":"复制成功","error":"复制失败"},"backtop":"返回顶部","time":{"recent":"最近","yesterday":"昨天","berforeyesterday":"前天","daybefore":"天前","runtime":"天"},"sayhello":{"morning":"早上好","noon":"中午好","afternoon":"下午好","night":"晚上好","goodnight":"晚安","iam":"!  我是"},"search":{"empty":"搜索结果为空","hit":"已为您找到 ${query} 条结果","placeholder":"输入关键词快速查找"}},"covercolor":true,"comment":{"enable":true,"twikooUrl":"https://twikoofai.zeabur.app"},"algolia":{"appId":"0FGK10N4Z0","apiKey":"c74f80ffe8c20912027aaf3d9e34c60a","indexName":"mac"}};</script><script id="site-config">var PAGECONFIG = {"is_home":true,"is_post":false,"is_page":false,"page":false};</script>
+    <!-- hexo injector head_end start --><link rel="stylesheet" href="https://unpkg.zhimg.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://unpkg.zhimg.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://unpkg.zhimg.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head>
+    <body id="body">
+        
+            <div id="loading-box" onclick="preloader.endLoading();" class style="zoom: 1;">
+    <div class="loading-bg">
+        <img class="loading-img nolazyload" alt="loading image"
+            src="/img/avatar.webp">
+        </div>
+</div>
+<script>
+    const preloader = {
+        endLoading: () => {
+            document.getElementById('loading-box').classList.add("loaded")
+        },
+        initLoading: () => {
+            document.getElementById('loading-box').classList.remove("loaded")
+        },
+        removePaceDone: () => {
+            document.getElementById('body').classList = 'pace-done'
+        }
+    }
+    window.addEventListener('load',()=> { preloader.endLoading() })
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+</script>
+<style>
+    #loading-box {
+        -webkit-user-select: none;
+    }
+
+    #loading-box .loading-bg {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: var(--heo-background);
+        z-index: 1999;
+        opacity: 1;
+        transition: 0.2s;
+        pointer-events: all;
+        animation: showLoading 0.3s 0s backwards;
+    }
+
+    #loading-box.loaded .loading-bg {
+        pointer-events: none;
+        transition: 0.2s;
+        animation: hideLoading 0.3s 0s forwards;
+    }
+
+    #loading-box .loading-img {
+        width: 100px;
+        margin: auto;
+        animation-duration: 0.2s;
+        animation-name: loadingAction;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes loadingAction {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0.6;
+        }
+    }
+
+    @keyframes hideLoading {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+    }
+
+    @keyframes showLoading {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+</style>
+        
+        <div id="console" style="zoom: 1;" class="">
+    <div class="close-btn" onclick="acrylic.hideConsole()" href="javascript:void(0);">
+        <i class="fas fa-circle-xmark"></i>
+    </div>
+    
+        <div class="console-card-group">
+            <div class="console-card-group-left">
+                <div class="console-card" id="card-newest-comments" onclick="acrylic.hideConsole()">
+                    <div class="card-content">
+                        <div class="author-content-item-tips">互动</div>
+                        <div class="author-content-item-title">最新评论</div>
+                    </div>
+                    <div class="aside-list"></div>
+                </div>
+    
+            </div>
+            <div class="console-card-group-right">
+                <div class="console-card tags" onclick="acrylic.hideConsole()">
+                    <div class="card-content">
+                        <div class="author-content-item-tips">标签</div>
+                        <div class="author-content-item-title">寻找感兴趣的领域</div>
+                    </div>
+                    <div class="card-tag-cloud">
+                        
+                            <a href="/tags/%E8%BD%AF%E4%BB%B6/" style="font-size: 0.8rem; color: #d3d3d3">软件<sup>10</sup></a>
+                        
+                            <a href="/tags/win%E8%BD%AF%E4%BB%B6/" style="font-size: 0.8rem; color: #d3d3d3">win软件<sup>4</sup></a>
+                        
+                            <a href="/tags/%E4%B8%8B%E8%BD%BD/" style="font-size: 0.8rem; color: #d3d3d3">下载<sup>5</sup></a>
+                        
+                            <a href="/tags/%E5%BA%A6%E7%9B%98%E4%B8%8B%E8%BD%BD/" style="font-size: 0.8rem; color: #d3d3d3">度盘下载<sup>2</sup></a>
+                        
+                            <a href="/tags/ai/" style="font-size: 0.8rem; color: #d3d3d3">ai<sup>3</sup></a>
+                        
+                            <a href="/tags/app/" style="font-size: 0.8rem; color: #d3d3d3">app<sup>7</sup></a>
+                        
+                            <a href="/tags/%E4%BC%9A%E5%91%98/" style="font-size: 0.8rem; color: #d3d3d3">会员<sup>2</sup></a>
+                        
+                            <a href="/tags/%E5%BD%B1%E8%A7%86/" style="font-size: 0.8rem; color: #d3d3d3">影视<sup>4</sup></a>
+                        
+                            <a href="/tags/%E6%90%9C%E7%B4%A2/" style="font-size: 0.8rem; color: #d3d3d3">搜索<sup>1</sup></a>
+                        
+                            <a href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6/" style="font-size: 0.8rem; color: #d3d3d3">浏览器插件<sup>2</sup></a>
+                        
+                            <a href="/tags/%E7%BF%BB%E8%AF%91/" style="font-size: 0.8rem; color: #d3d3d3">翻译<sup>2</sup></a>
+                        
+                            <a href="/tags/%E5%AE%89%E5%8D%93/" style="font-size: 0.8rem; color: #d3d3d3">安卓<sup>4</sup></a>
+                        
+                            <a href="/tags/Mac%E5%B7%A5%E5%85%B7/" style="font-size: 0.8rem; color: #d3d3d3">Mac工具<sup>1</sup></a>
+                        
+                            <a href="/tags/%E6%88%AA%E5%9B%BE/" style="font-size: 0.8rem; color: #d3d3d3">截图<sup>1</sup></a>
+                        
+                            <a href="/tags/%E6%88%AA%E5%B1%8F/" style="font-size: 0.8rem; color: #d3d3d3">截屏<sup>1</sup></a>
+                        
+                            <a href="/tags/%E7%94%B5%E8%84%91%E5%B7%A5%E5%85%B7/" style="font-size: 0.8rem; color: #d3d3d3">电脑工具<sup>1</sup></a>
+                        
+                            <a href="/tags/B%E7%AB%99/" style="font-size: 0.8rem; color: #d3d3d3">B站<sup>1</sup></a>
+                        
+                            <a href="/tags/TV%E8%BD%AF%E4%BB%B6/" style="font-size: 0.8rem; color: #d3d3d3">TV软件<sup>3</sup></a>
+                        
+                            <a href="/tags/%E6%97%A5%E5%8E%86/" style="font-size: 0.8rem; color: #d3d3d3">日历<sup>1</sup></a>
+                        
+                            <a href="/tags/%E8%8A%82%E5%81%87%E6%97%A5/" style="font-size: 0.8rem; color: #d3d3d3">节假日<sup>1</sup></a>
+                        
+                            <a href="/tags/%E8%AE%A2%E9%98%85/" style="font-size: 0.8rem; color: #d3d3d3">订阅<sup>1</sup></a>
+                        
+                            <a href="/tags/Chrome%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%A9%E5%B1%95/" style="font-size: 0.8rem; color: #d3d3d3">Chrome浏览器扩展<sup>2</sup></a>
+                        
+                            <a href="/tags/Edge%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%A9%E5%B1%95/" style="font-size: 0.8rem; color: #d3d3d3">Edge浏览器扩展<sup>1</sup></a>
+                        
+                            <a href="/tags/%E6%A0%87%E7%AD%BE/" style="font-size: 0.8rem; color: #d3d3d3">标签<sup>2</sup></a>
+                        
+                            <a href="/tags/AppStore/" style="font-size: 0.8rem; color: #d3d3d3">AppStore<sup>1</sup></a>
+                        
+                            <a href="/tags/Github/" style="font-size: 0.8rem; color: #d3d3d3">Github<sup>1</sup></a>
+                        
+                            <a href="/tags/mac/" style="font-size: 0.8rem; color: #d3d3d3">mac<sup>1</sup></a>
+                        
+                            <a href="/tags/%E9%9F%B3%E6%95%88/" style="font-size: 0.8rem; color: #d3d3d3">音效<sup>1</sup></a>
+                        
+                            <a href="/tags/TV/" style="font-size: 0.8rem; color: #d3d3d3">TV<sup>2</sup></a>
+                        
+                            <a href="/tags/%E7%9B%92%E5%AD%90/" style="font-size: 0.8rem; color: #d3d3d3">盒子<sup>1</sup></a>
+                        
+                            <a href="/tags/%E5%8E%BB%E6%B0%B4%E5%8D%B0/" style="font-size: 0.8rem; color: #d3d3d3">去水印<sup>2</sup></a>
+                        
+                            <a href="/tags/%E7%9B%B4%E6%92%AD/" style="font-size: 0.8rem; color: #d3d3d3">直播<sup>2</sup></a>
+                        
+                            <a href="/tags/apple/" style="font-size: 0.8rem; color: #d3d3d3">apple<sup>1</sup></a>
+                        
+                            <a href="/tags/Mac/" style="font-size: 0.8rem; color: #d3d3d3">Mac<sup>1</sup></a>
+                        
+                            <a href="/tags/ios/" style="font-size: 0.8rem; color: #d3d3d3">ios<sup>2</sup></a>
+                        
+                            <a href="/tags/%E6%94%B6%E9%9F%B3%E6%9C%BA/" style="font-size: 0.8rem; color: #d3d3d3">收音机<sup>1</sup></a>
+                        
+                            <a href="/tags/%E5%8E%BB%E5%B9%BF%E5%91%8A/" style="font-size: 0.8rem; color: #d3d3d3">去广告<sup>1</sup></a>
+                        
+                            <a href="/tags/web/" style="font-size: 0.8rem; color: #d3d3d3">web<sup>1</sup></a>
+                        
+                            <a href="/tags/%E5%8D%B3%E6%97%B6%E5%B7%A5%E5%85%B7/" style="font-size: 0.8rem; color: #d3d3d3">即时工具<sup>1</sup></a>
+                        
+                            <a href="/tags/%E7%BD%91%E9%A1%B5/" style="font-size: 0.8rem; color: #d3d3d3">网页<sup>1</sup></a>
+                        
+                            <a href="/tags/%E5%97%85%E6%8E%A2/" style="font-size: 0.8rem; color: #d3d3d3">嗅探<sup>1</sup></a>
+                        
+                            <a href="/tags/%E5%B7%A5%E5%85%B7/" style="font-size: 0.8rem; color: #d3d3d3">工具<sup>1</sup></a>
+                        
+                            <a href="/tags/%E6%B8%B8%E6%88%8F/" style="font-size: 0.8rem; color: #d3d3d3">游戏<sup>1</sup></a>
+                        
+                            <a href="/tags/%E8%A7%A3%E6%9E%90/" style="font-size: 0.8rem; color: #d3d3d3">解析<sup>1</sup></a>
+                        
+                            <a href="/tags/%E9%9F%B3%E4%B9%90/" style="font-size: 0.8rem; color: #d3d3d3">音乐<sup>3</sup></a>
+                        
+                            <a href="/tags/%E5%B0%8F%E8%AF%B4/" style="font-size: 0.8rem; color: #d3d3d3">小说<sup>1</sup></a>
+                        
+                            <a href="/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/" style="font-size: 0.8rem; color: #d3d3d3">电子书<sup>1</sup></a>
+                        
+                            <a href="/tags/%E5%9B%BE%E6%A0%87/" style="font-size: 0.8rem; color: #d3d3d3">图标<sup>1</sup></a>
+                        
+                            <a href="/tags/%E7%BD%91%E7%AB%99/" style="font-size: 0.8rem; color: #d3d3d3">网站<sup>1</sup></a>
+                        
+                            <a href="/tags/%E8%A7%86%E9%A2%91%E5%8F%B7/" style="font-size: 0.8rem; color: #d3d3d3">视频号<sup>2</sup></a>
+                        
+                            <a href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/" style="font-size: 0.8rem; color: #d3d3d3">浏览器<sup>1</sup></a>
+                        
+                            <a href="/tags/%E5%AD%97%E4%BD%93/" style="font-size: 0.8rem; color: #d3d3d3">字体<sup>1</sup></a>
+                        
+                            <a href="/tags/%E5%89%AA%E8%BE%91/" style="font-size: 0.8rem; color: #d3d3d3">剪辑<sup>1</sup></a>
+                        
+                            <a href="/tags/%E6%97%A0%E6%8D%9F%E6%94%BE%E5%A4%A7/" style="font-size: 0.8rem; color: #d3d3d3">无损放大<sup>1</sup></a>
+                        
+                            <a href="/tags/%E8%A7%86%E9%A2%91/" style="font-size: 0.8rem; color: #d3d3d3">视频<sup>1</sup></a>
+                        
+                            <a href="/tags/B%E7%AB%99%E8%A7%86%E9%A2%91/" style="font-size: 0.8rem; color: #d3d3d3">B站视频<sup>1</sup></a>
+                        
+                            <a href="/tags/%E5%9C%A8%E7%BA%BF%E9%9F%B3%E4%B9%90/" style="font-size: 0.8rem; color: #d3d3d3">在线音乐<sup>1</sup></a>
+                        
+                            <a href="/tags/%E6%89%A9%E5%B1%95/" style="font-size: 0.8rem; color: #d3d3d3">扩展<sup>1</sup></a>
+                        
+                            <a href="/tags/K%E6%AD%8C/" style="font-size: 0.8rem; color: #d3d3d3">K歌<sup>1</sup></a>
+                        
+                            <a href="/tags/TV%E4%B8%93%E5%8C%BA/" style="font-size: 0.8rem; color: #d3d3d3">TV专区<sup>1</sup></a>
+                        
+                            <a href="/tags/%E7%AC%AC%E4%B8%89%E6%96%B9/" style="font-size: 0.8rem; color: #d3d3d3">第三方<sup>1</sup></a>
+                        
+                            <a href="/tags/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/" style="font-size: 0.8rem; color: #d3d3d3">阿里云盘<sup>1</sup></a>
+                        
+                            <a href="/tags/hexo/" style="font-size: 0.8rem; color: #d3d3d3">hexo<sup>2</sup></a>
+                        
+                            <a href="/tags/%E8%BD%AC%E8%BD%BD/" style="font-size: 0.8rem; color: #d3d3d3">转载<sup>1</sup></a>
+                        
+                            <a href="/tags/php/" style="font-size: 0.8rem; color: #d3d3d3">php<sup>2</sup></a>
+                        
+                            <a href="/tags/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/" style="font-size: 0.8rem; color: #d3d3d3">主题美化<sup>2</sup></a>
+                        
+                            <a href="/tags/%E5%BC%95%E7%94%A8%E8%BD%AC%E8%BD%BD/" style="font-size: 0.8rem; color: #d3d3d3">引用转载<sup>1</sup></a>
+                        
+                            <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 0.8rem; color: #d3d3d3">教程<sup>5</sup></a>
+                        
+                            <a href="/tags/wordpress/" style="font-size: 0.8rem; color: #d3d3d3">wordpress<sup>3</sup></a>
+                        
+                            <a href="/tags/%E5%AD%A6%E4%B9%A0/" style="font-size: 0.8rem; color: #d3d3d3">学习<sup>3</sup></a>
+                        
+                            <a href="/tags/%E8%AF%84%E8%AE%BA/" style="font-size: 0.8rem; color: #d3d3d3">评论<sup>1</sup></a>
+                        
+                            <a href="/tags/DNS/" style="font-size: 0.8rem; color: #d3d3d3">DNS<sup>1</sup></a>
+                        
+                            <a href="/tags/%E5%BE%AE%E4%BF%A1/" style="font-size: 0.8rem; color: #d3d3d3">微信<sup>1</sup></a>
+                        
+                            <a href="/tags/%E6%8F%92%E4%BB%B6/" style="font-size: 0.8rem; color: #d3d3d3">插件<sup>1</sup></a>
+                        
+                            <a href="/tags/API/" style="font-size: 0.8rem; color: #d3d3d3">API<sup>1</sup></a>
+                        
+                            <a href="/tags/%E6%AF%92%E9%B8%A1%E6%B1%A4/" style="font-size: 0.8rem; color: #d3d3d3">毒鸡汤<sup>1</sup></a>
+                        
+                            <a href="/tags/%E8%87%AA%E5%BB%BA/" style="font-size: 0.8rem; color: #d3d3d3">自建<sup>1</sup></a>
+                        
+                            <a href="/tags/%E7%A4%BA%E4%BE%8B/" style="font-size: 0.8rem; color: #d3d3d3">示例<sup>1</sup></a>
+                        
+                            <a href="/tags/demo/" style="font-size: 0.8rem; color: #d3d3d3">demo<sup>1</sup></a>
+                        
+                            <a href="/tags/encrypt/" style="font-size: 0.8rem; color: #d3d3d3">encrypt<sup>1</sup></a>
+                        
+                            <a href="/tags/4K/" style="font-size: 0.8rem; color: #d3d3d3">4K<sup>1</sup></a>
+                        
+                            <a href="/tags/%E5%93%94%E5%93%A9/" style="font-size: 0.8rem; color: #d3d3d3">哔哩<sup>1</sup></a>
+                        
+                    </div>
+                </div>
+                <div class="console-card history" onclick="acrylic.hideConsole()">
+                    <ul class="card-archive-list">
+    
+     
+        <li class="card-archive-list-item"><a class="card-archive-list-link" onclick="pjax.loadUrl('/archives/2023-06/')" data-pjax-state=""><span
+            class="card-archive-list-date">2023-06</span>
+            <div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span
+                    class="card-archive-list-count-unit">篇</span></div>
+            </a>
+        </li>
+     
+        <li class="card-archive-list-item"><a class="card-archive-list-link" onclick="pjax.loadUrl('/archives/2023-05/')" data-pjax-state=""><span
+            class="card-archive-list-date">2023-05</span>
+            <div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span
+                    class="card-archive-list-count-unit">篇</span></div>
+            </a>
+        </li>
+     
+        <li class="card-archive-list-item"><a class="card-archive-list-link" onclick="pjax.loadUrl('/archives/2023-04/')" data-pjax-state=""><span
+            class="card-archive-list-date">2023-04</span>
+            <div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span
+                    class="card-archive-list-count-unit">篇</span></div>
+            </a>
+        </li>
+     
+        <li class="card-archive-list-item"><a class="card-archive-list-link" onclick="pjax.loadUrl('/archives/2023-02/')" data-pjax-state=""><span
+            class="card-archive-list-date">2023-02</span>
+            <div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span
+                    class="card-archive-list-count-unit">篇</span></div>
+            </a>
+        </li>
+     
+        <li class="card-archive-list-item"><a class="card-archive-list-link" onclick="pjax.loadUrl('/archives/2023-01/')" data-pjax-state=""><span
+            class="card-archive-list-date">2023-01</span>
+            <div class="card-archive-list-count-group"><span class="card-archive-list-count">12</span><span
+                    class="card-archive-list-count-unit">篇</span></div>
+            </a>
+        </li>
+     
+        <li class="card-archive-list-item"><a class="card-archive-list-link" onclick="pjax.loadUrl('/archives/2022-12/')" data-pjax-state=""><span
+            class="card-archive-list-date">2022-12</span>
+            <div class="card-archive-list-count-group"><span class="card-archive-list-count">13</span><span
+                    class="card-archive-list-count-unit">篇</span></div>
+            </a>
+        </li>
+     
+        <li class="card-archive-list-item"><a class="card-archive-list-link" onclick="pjax.loadUrl('/archives/2022-11/')" data-pjax-state=""><span
+            class="card-archive-list-date">2022-11</span>
+            <div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span
+                    class="card-archive-list-count-unit">篇</span></div>
+            </a>
+        </li>
+     
+        <li class="card-archive-list-item"><a class="card-archive-list-link" onclick="pjax.loadUrl('/archives/2022-07/')" data-pjax-state=""><span
+            class="card-archive-list-date">2022-07</span>
+            <div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span
+                    class="card-archive-list-count-unit">篇</span></div>
+            </a>
+        </li>
+     
+        <li class="card-archive-list-item"><a class="card-archive-list-link" onclick="pjax.loadUrl('/archives/2022-06/')" data-pjax-state=""><span
+            class="card-archive-list-date">2022-06</span>
+            <div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span
+                    class="card-archive-list-count-unit">篇</span></div>
+            </a>
+        </li>
+     
+        <li class="card-archive-list-item"><a class="card-archive-list-link" onclick="pjax.loadUrl('/archives/2022-05/')" data-pjax-state=""><span
+            class="card-archive-list-date">2022-05</span>
+            <div class="card-archive-list-count-group"><span class="card-archive-list-count">11</span><span
+                    class="card-archive-list-count-unit">篇</span></div>
+            </a>
+        </li>
+        
+</ul>
+
+                </div>
+            </div>
+        </div>
+    
+    
+    <div class="button-group">
+        <div class="console-btn-item"> <a class="darkmode_switchbutton" onclick="acrylic.switchDarkMode()" title="显示模式切换"
+                href="javascript:void(0);" rel="external nofollow" data-pjax-state=""><i class="fas fa-moon"
+                    style="font-size: 1rem;"></i></a></div>
+                    
+            <div class="console-btn-item" id="consoleMusic" onclick="acrylic.musicToggle()" title="音乐开关"><a class="music-switch"><i class="fas fa-music"></i></a></div>
+        
+    </div>
+    <div class="console-mask" onclick="acrylic.hideConsole()" href="javascript:void(0);" rel="external nofollow"></div>
+</div>
+        <div id="sidebar" style="zoom: 1;">
+    <div id="menu-mask" style="display: none;"></div>
+    <div id="sidebar-menus" class>
+        <span class="sidebar-menu-item-title">功能</span>
+        <div class="sidebar-menu-item">
+            <a class="darkmode_switchbutton menu-child" onclick="acrylic.switchDarkMode()" title="显示模式切换"
+                href="javascript:void(0);" rel="external nofollow">
+                <i class="fas fa-moon" style="font-size: 1rem;"></i>
+                <span>显示模式</span>
+            </a>
+        </div>
+        
+            <div class="back-menu-list-groups">
+    
+  </div>
+  
+        
+        <div class="menus_items">
+    
+        <div class="menus_item">
+            
+                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
+                    <span> 文库</span>
+                </a>
+                <ul class="menus_item_child">
+                    
+                        <li>
+                            <a class="site-page child" href="/archives/">
+                                <i class="fas fa-box-archive"></i>
+                                <span> 文章列表</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/categories/">
+                                <i class="fas fa-cube"></i>
+                                <span> 全部分类</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/tags/">
+                                <i class="fas fa-tags"></i>
+                                <span> 全部标签</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+             
+        </div>
+    
+        <div class="menus_item">
+            
+                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
+                    <span> 友链</span>
+                </a>
+                <ul class="menus_item_child">
+                    
+                        <li>
+                            <a class="site-page child" href="/fcircle/">
+                                <i class="fas fa-fish-fins"></i>
+                                <span> 友链鱼塘</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/links/">
+                                <i class="fas fa-user-group"></i>
+                                <span> 友情链接</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="javascript:travelling()">
+                                <i class="fas fa-bus"></i>
+                                <span> 宝藏博主</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+             
+        </div>
+    
+</div>
+        <span class="sidebar-menu-item-title">标签</span>
+        <div class="card-widget card-tags card-archives card-webinfo card-allinfo">
+            <div class="item-headline">
+                <i class="fas fa-tags"></i>
+                <span>标签</span>
+            </div>
+            <div class="card-tag-cloud">
+                
+                    <a href="/tags/%E8%BD%AF%E4%BB%B6/" style="font-size: 1em; color: #d3d3d3">软件
+                        <sup>10</sup>
+                    </a>
+                
+                    <a href="/tags/win%E8%BD%AF%E4%BB%B6/" style="font-size: 1em; color: #d3d3d3">win软件
+                        <sup>4</sup>
+                    </a>
+                
+                    <a href="/tags/%E4%B8%8B%E8%BD%BD/" style="font-size: 1em; color: #d3d3d3">下载
+                        <sup>5</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%BA%A6%E7%9B%98%E4%B8%8B%E8%BD%BD/" style="font-size: 1em; color: #d3d3d3">度盘下载
+                        <sup>2</sup>
+                    </a>
+                
+                    <a href="/tags/ai/" style="font-size: 1em; color: #d3d3d3">ai
+                        <sup>3</sup>
+                    </a>
+                
+                    <a href="/tags/app/" style="font-size: 1em; color: #d3d3d3">app
+                        <sup>7</sup>
+                    </a>
+                
+                    <a href="/tags/%E4%BC%9A%E5%91%98/" style="font-size: 1em; color: #d3d3d3">会员
+                        <sup>2</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%BD%B1%E8%A7%86/" style="font-size: 1em; color: #d3d3d3">影视
+                        <sup>4</sup>
+                    </a>
+                
+                    <a href="/tags/%E6%90%9C%E7%B4%A2/" style="font-size: 1em; color: #d3d3d3">搜索
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6/" style="font-size: 1em; color: #d3d3d3">浏览器插件
+                        <sup>2</sup>
+                    </a>
+                
+                    <a href="/tags/%E7%BF%BB%E8%AF%91/" style="font-size: 1em; color: #d3d3d3">翻译
+                        <sup>2</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%AE%89%E5%8D%93/" style="font-size: 1em; color: #d3d3d3">安卓
+                        <sup>4</sup>
+                    </a>
+                
+                    <a href="/tags/Mac%E5%B7%A5%E5%85%B7/" style="font-size: 1em; color: #d3d3d3">Mac工具
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E6%88%AA%E5%9B%BE/" style="font-size: 1em; color: #d3d3d3">截图
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E6%88%AA%E5%B1%8F/" style="font-size: 1em; color: #d3d3d3">截屏
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E7%94%B5%E8%84%91%E5%B7%A5%E5%85%B7/" style="font-size: 1em; color: #d3d3d3">电脑工具
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/B%E7%AB%99/" style="font-size: 1em; color: #d3d3d3">B站
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/TV%E8%BD%AF%E4%BB%B6/" style="font-size: 1em; color: #d3d3d3">TV软件
+                        <sup>3</sup>
+                    </a>
+                
+                    <a href="/tags/%E6%97%A5%E5%8E%86/" style="font-size: 1em; color: #d3d3d3">日历
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E8%8A%82%E5%81%87%E6%97%A5/" style="font-size: 1em; color: #d3d3d3">节假日
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E8%AE%A2%E9%98%85/" style="font-size: 1em; color: #d3d3d3">订阅
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/Chrome%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%A9%E5%B1%95/" style="font-size: 1em; color: #d3d3d3">Chrome浏览器扩展
+                        <sup>2</sup>
+                    </a>
+                
+                    <a href="/tags/Edge%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%A9%E5%B1%95/" style="font-size: 1em; color: #d3d3d3">Edge浏览器扩展
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E6%A0%87%E7%AD%BE/" style="font-size: 1em; color: #d3d3d3">标签
+                        <sup>2</sup>
+                    </a>
+                
+                    <a href="/tags/AppStore/" style="font-size: 1em; color: #d3d3d3">AppStore
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/Github/" style="font-size: 1em; color: #d3d3d3">Github
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/mac/" style="font-size: 1em; color: #d3d3d3">mac
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E9%9F%B3%E6%95%88/" style="font-size: 1em; color: #d3d3d3">音效
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/TV/" style="font-size: 1em; color: #d3d3d3">TV
+                        <sup>2</sup>
+                    </a>
+                
+                    <a href="/tags/%E7%9B%92%E5%AD%90/" style="font-size: 1em; color: #d3d3d3">盒子
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%8E%BB%E6%B0%B4%E5%8D%B0/" style="font-size: 1em; color: #d3d3d3">去水印
+                        <sup>2</sup>
+                    </a>
+                
+                    <a href="/tags/%E7%9B%B4%E6%92%AD/" style="font-size: 1em; color: #d3d3d3">直播
+                        <sup>2</sup>
+                    </a>
+                
+                    <a href="/tags/apple/" style="font-size: 1em; color: #d3d3d3">apple
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/Mac/" style="font-size: 1em; color: #d3d3d3">Mac
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/ios/" style="font-size: 1em; color: #d3d3d3">ios
+                        <sup>2</sup>
+                    </a>
+                
+                    <a href="/tags/%E6%94%B6%E9%9F%B3%E6%9C%BA/" style="font-size: 1em; color: #d3d3d3">收音机
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%8E%BB%E5%B9%BF%E5%91%8A/" style="font-size: 1em; color: #d3d3d3">去广告
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/web/" style="font-size: 1em; color: #d3d3d3">web
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%8D%B3%E6%97%B6%E5%B7%A5%E5%85%B7/" style="font-size: 1em; color: #d3d3d3">即时工具
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E7%BD%91%E9%A1%B5/" style="font-size: 1em; color: #d3d3d3">网页
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%97%85%E6%8E%A2/" style="font-size: 1em; color: #d3d3d3">嗅探
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%B7%A5%E5%85%B7/" style="font-size: 1em; color: #d3d3d3">工具
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E6%B8%B8%E6%88%8F/" style="font-size: 1em; color: #d3d3d3">游戏
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E8%A7%A3%E6%9E%90/" style="font-size: 1em; color: #d3d3d3">解析
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E9%9F%B3%E4%B9%90/" style="font-size: 1em; color: #d3d3d3">音乐
+                        <sup>3</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%B0%8F%E8%AF%B4/" style="font-size: 1em; color: #d3d3d3">小说
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/" style="font-size: 1em; color: #d3d3d3">电子书
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%9B%BE%E6%A0%87/" style="font-size: 1em; color: #d3d3d3">图标
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E7%BD%91%E7%AB%99/" style="font-size: 1em; color: #d3d3d3">网站
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E8%A7%86%E9%A2%91%E5%8F%B7/" style="font-size: 1em; color: #d3d3d3">视频号
+                        <sup>2</sup>
+                    </a>
+                
+                    <a href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/" style="font-size: 1em; color: #d3d3d3">浏览器
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%AD%97%E4%BD%93/" style="font-size: 1em; color: #d3d3d3">字体
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%89%AA%E8%BE%91/" style="font-size: 1em; color: #d3d3d3">剪辑
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E6%97%A0%E6%8D%9F%E6%94%BE%E5%A4%A7/" style="font-size: 1em; color: #d3d3d3">无损放大
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E8%A7%86%E9%A2%91/" style="font-size: 1em; color: #d3d3d3">视频
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/B%E7%AB%99%E8%A7%86%E9%A2%91/" style="font-size: 1em; color: #d3d3d3">B站视频
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%9C%A8%E7%BA%BF%E9%9F%B3%E4%B9%90/" style="font-size: 1em; color: #d3d3d3">在线音乐
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E6%89%A9%E5%B1%95/" style="font-size: 1em; color: #d3d3d3">扩展
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/K%E6%AD%8C/" style="font-size: 1em; color: #d3d3d3">K歌
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/TV%E4%B8%93%E5%8C%BA/" style="font-size: 1em; color: #d3d3d3">TV专区
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E7%AC%AC%E4%B8%89%E6%96%B9/" style="font-size: 1em; color: #d3d3d3">第三方
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/" style="font-size: 1em; color: #d3d3d3">阿里云盘
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/hexo/" style="font-size: 1em; color: #d3d3d3">hexo
+                        <sup>2</sup>
+                    </a>
+                
+                    <a href="/tags/%E8%BD%AC%E8%BD%BD/" style="font-size: 1em; color: #d3d3d3">转载
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/php/" style="font-size: 1em; color: #d3d3d3">php
+                        <sup>2</sup>
+                    </a>
+                
+                    <a href="/tags/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/" style="font-size: 1em; color: #d3d3d3">主题美化
+                        <sup>2</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%BC%95%E7%94%A8%E8%BD%AC%E8%BD%BD/" style="font-size: 1em; color: #d3d3d3">引用转载
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 1em; color: #d3d3d3">教程
+                        <sup>5</sup>
+                    </a>
+                
+                    <a href="/tags/wordpress/" style="font-size: 1em; color: #d3d3d3">wordpress
+                        <sup>3</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%AD%A6%E4%B9%A0/" style="font-size: 1em; color: #d3d3d3">学习
+                        <sup>3</sup>
+                    </a>
+                
+                    <a href="/tags/%E8%AF%84%E8%AE%BA/" style="font-size: 1em; color: #d3d3d3">评论
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/DNS/" style="font-size: 1em; color: #d3d3d3">DNS
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%BE%AE%E4%BF%A1/" style="font-size: 1em; color: #d3d3d3">微信
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E6%8F%92%E4%BB%B6/" style="font-size: 1em; color: #d3d3d3">插件
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/API/" style="font-size: 1em; color: #d3d3d3">API
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E6%AF%92%E9%B8%A1%E6%B1%A4/" style="font-size: 1em; color: #d3d3d3">毒鸡汤
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E8%87%AA%E5%BB%BA/" style="font-size: 1em; color: #d3d3d3">自建
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E7%A4%BA%E4%BE%8B/" style="font-size: 1em; color: #d3d3d3">示例
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/demo/" style="font-size: 1em; color: #d3d3d3">demo
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/encrypt/" style="font-size: 1em; color: #d3d3d3">encrypt
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/4K/" style="font-size: 1em; color: #d3d3d3">4K
+                        <sup>1</sup>
+                    </a>
+                
+                    <a href="/tags/%E5%93%94%E5%93%A9/" style="font-size: 1em; color: #d3d3d3">哔哩
+                        <sup>1</sup>
+                    </a>
+                
+            </div>
+        </div>
+    </div>
+</div>    
+        
+            <div class="page" id="body-wrap">
+                <header class="not-top-img" id="page-header">
+    <nav id="nav" class="show">
+    <div id="nav-group">
+        <div id="blog_name">
+            
+                <div class="back-home-button" tabindex="-1">
+                    <i class="back-home-button-icon fas fa-grip-vertical"></i>
+                    <div class="back-menu-list-groups">
+    
+  </div>
+  
+                </div>
+            
+            <a id="site-name" href="/" title="返回博客主页">
+                    
+                        <span class="heoicon">Acrylic</span>
+                    
+            </a>
+        </div>
+        <div id="page-name-mask">
+            <div id="page-name">
+                <a id="page-name-text" onclick="acrylic.toTop()">AGoden</a>
+            </div>
+        </div>
+        <div id="menus">
+            <div class="menus_items">
+    
+        <div class="menus_item">
+            
+                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
+                    <span> 文库</span>
+                </a>
+                <ul class="menus_item_child">
+                    
+                        <li>
+                            <a class="site-page child" href="/archives/">
+                                <i class="fas fa-box-archive"></i>
+                                <span> 文章列表</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/categories/">
+                                <i class="fas fa-cube"></i>
+                                <span> 全部分类</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/tags/">
+                                <i class="fas fa-tags"></i>
+                                <span> 全部标签</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+             
+        </div>
+    
+        <div class="menus_item">
+            
+                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
+                    <span> 友链</span>
+                </a>
+                <ul class="menus_item_child">
+                    
+                        <li>
+                            <a class="site-page child" href="/fcircle/">
+                                <i class="fas fa-fish-fins"></i>
+                                <span> 友链鱼塘</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/links/">
+                                <i class="fas fa-user-group"></i>
+                                <span> 友情链接</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="javascript:travelling()">
+                                <i class="fas fa-bus"></i>
+                                <span> 宝藏博主</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+             
+        </div>
+    
+</div>
+        </div>
+        <!-- <div id="nav-left">
+            <div id="fps-group">
+                <div id="fps">145</div><span class="fpsText">FPS</span>
+            </div>
+        </div> -->
+        <div id="nav-right">
+            
+    <div class="nav-button only-home" id="travellings_button">
+        <a class="site-page"  target="_blank" rel="noopener external nofollow" href="https://www.travellings.cn/go.html" title="开往-友链接力"  width="120">
+            <i class="fa-solid fa-train-subway" style="font-size: 1rem;"></i>
+        </a>
+    </div>
+
+
+    <div class="nav-button" id="randomPost_button">
+        <a class="site-page" onclick="toRandomPost()"
+            title="随机前往一个文章">
+            <i class="fas fa-shuffle" style="font-size: 1rem;"></i>
+        </a>
+    </div>
+
+
+    <div class="nav-button" id="search-button">
+        <a class="site-page social-icon search" title="站内搜索"
+            href="javascript:void(0);" rel="external nofollow">
+            <i class="fas fa-magnifying-glass" style="font-size: 1rem;"></i>
+        </a>
+    </div>
+
+
+    <div class="nav-button" id="nav-console">
+        <a class="console_switchbutton" onclick="acrylic.showConsole()"
+        title="显示中控台" href="javascript:void(0);" rel="external nofollow">
+        <i class="fas fa-bars-progress" style="font-size: 1rem;"></i>
+        </a>
+    </div>
+
+<div class="nav-button" id="nav-totop" onclick="acrylic.toTop()">
+    <a class="totopbtn">
+        <i class="fas fa-arrow-up"></i>
+        <span id="percent">0</span>
+    </a>
+</div>
+<div id="toggle-menu">
+    <a class="site-page">
+        <i class="fas fa-bars fa-fw" style="font-size: 1rem;"></i>
+    </a>
+</div>
+        </div>
+    </div>
+</nav>
+        
+</header>
+                <div id="home_top">
+    
+        <div class="bbTimeList container" id="bbTimeList">
+    <i class="bber-logo fa-regular fa-bell icon-bblogo" onclick="pjax.loadUrl('/says/')"></i>
+    <div class="swiper-container swiper-no-swiping swiper-container-initialized swiper-container-vertical swiper-container-pointer-events"
+        id="bbtalk" tabindex="-1" onclick="pjax.loadUrl('/says/')">
+        <div class="swiper-wrapper" id="bber-talk">
+            
+                
+                <div class="li-style swiper-slide">
+                    第一次现场体验 话剧-《瞎话艺术家》【图片】
+                </div>
+            
+                
+                <div class="li-style swiper-slide">
+                    博客折腾到本地的hexo，用了anzhiyu的主题，不错，先玩一玩😍
+                </div>
+            
+                
+                <div class="li-style swiper-slide">
+                    来自即刻 @wong2 最新大作 ChatHub（适合Chrome和Edge的插件），太喜欢了。 如果你是ChatGPT和New Bing 双栖用户，这是一款不容错过的AI 应用杰作；从用户端你会得到双倍提效，而从创作者端将激发你思考【图片】
+                </div>
+            
+                
+                <div class="li-style swiper-slide">
+                    一直想换个大屏的手机，纠结很久后换了个14 pro max ，目前体验来说，一切都OK，灵动岛只能部分应用能上，连微信都不想上的岛它不是好岛【图片】
+                </div>
+            
+                
+                <div class="li-style swiper-slide">
+                    去有风的地方！【图片】
+                </div>
+            
+                
+                <div class="li-style swiper-slide">
+                    搬个家，东西真多😥【图片】
+                </div>
+            
+                
+                <div class="li-style swiper-slide">
+                    这个年过的不简单，拿本七年后。第一次碰车，跑了几圈，熟练度蹭的一下上来了，但倒库真的还有很大差距😂【图片】
+                </div>
+            
+                
+                <div class="li-style swiper-slide">
+                    新年快乐，万事如意，福缘满满！【图片】
+                </div>
+            
+                
+                <div class="li-style swiper-slide">
+                    工厂拧螺丝到现在【图片】
+                </div>
+            
+                
+                <div class="li-style swiper-slide">
+                    音乐支持了参数设置自定义歌单
+                </div>
+            
+                
+        </div>
+    </div>
+    <i class="bber-gotobb fas fa-arrow-circle-right" title="查看全文" onclick="pjax.loadUrl('/says/')"></i>
+</div>
+    
+    
+        <div class="recent-top-post-group" id="recent-top-post-group">
+    <div class="recent-post-top" id="recent-post-top">
+        <div id="bannerGroup">
+            <div id="banners">
+                <div class="banners-title">
+    <div class="banners-title-big">
+        分享设计<br>与科技生活
+    </div>
+    <div class="banners-title-small">
+        blog.zhheo.com
+    </div>
+</div>
+<div class="tags-group-all">
+    <div class="tags-group-wrapper">
+        
+            
+                
+                
+                    <div class="tags-group-icon-pair">
+                    
+                    <div class="tags-group-icon" style="background: #989bf8">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/ae.png" title="AE">
+                    </div>
+                
+            
+                
+                    
+                    <div class="tags-group-icon" style="background: #ffffff">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/Sketch.png" title="Sketch">
+                    </div>
+                
+                    </div>
+                
+            
+                
+                
+                    <div class="tags-group-icon-pair">
+                    
+                    <div class="tags-group-icon" style="background: #57b6e6">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/docker.png" title="Docker">
+                    </div>
+                
+            
+                
+                    
+                    <div class="tags-group-icon" style="background: #4082c3">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/ps.png" title="ps">
+                    </div>
+                
+                    </div>
+                
+            
+                
+                
+                    <div class="tags-group-icon-pair">
+                    
+                    <div class="tags-group-icon" style="background: #ffffff">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/FinalCutPro.png" title="FinalCutPro">
+                    </div>
+                
+            
+                
+                    
+                    <div class="tags-group-icon" style="background: #ffffff">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/Python.png" title="Python">
+                    </div>
+                
+                    </div>
+                
+            
+                
+                
+                    <div class="tags-group-icon-pair">
+                    
+                    <div class="tags-group-icon" style="background: #eb6840">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/Swift.png" title="Swift">
+                    </div>
+                
+            
+                
+                    
+                    <div class="tags-group-icon" style="background: #8f55ba">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/Principle.png" title="Principle">
+                    </div>
+                
+                    </div>
+                
+            
+                
+                
+                    <div class="tags-group-icon-pair">
+                    
+                    <div class="tags-group-icon" style="background: #f29e39">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/illustrator.png" title="illustrator">
+                    </div>
+                
+            
+                
+                    
+                    <div class="tags-group-icon" style="background: #2c51db">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/CSS3.png" title="CSS3">
+                    </div>
+                
+                    </div>
+                
+            
+                
+                
+                    <div class="tags-group-icon-pair">
+                    
+                    <div class="tags-group-icon" style="background: #f7cb4f">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/JS.png" title="JS">
+                    </div>
+                
+            
+                
+                    
+                    <div class="tags-group-icon" style="background: #df5b40">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/git.png" title="Git">
+                    </div>
+                
+                    </div>
+                
+               
+        
+            
+                
+                
+                    <div class="tags-group-icon-pair">
+                    
+                    <div class="tags-group-icon" style="background: #989bf8">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/ae.png" title="AE">
+                    </div>
+                
+            
+                
+                    
+                    <div class="tags-group-icon" style="background: #ffffff">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/Sketch.png" title="Sketch">
+                    </div>
+                
+                    </div>
+                
+            
+                
+                
+                    <div class="tags-group-icon-pair">
+                    
+                    <div class="tags-group-icon" style="background: #57b6e6">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/docker.png" title="Docker">
+                    </div>
+                
+            
+                
+                    
+                    <div class="tags-group-icon" style="background: #4082c3">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/ps.png" title="ps">
+                    </div>
+                
+                    </div>
+                
+            
+                
+                
+                    <div class="tags-group-icon-pair">
+                    
+                    <div class="tags-group-icon" style="background: #ffffff">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/FinalCutPro.png" title="FinalCutPro">
+                    </div>
+                
+            
+                
+                    
+                    <div class="tags-group-icon" style="background: #ffffff">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/Python.png" title="Python">
+                    </div>
+                
+                    </div>
+                
+            
+                
+                
+                    <div class="tags-group-icon-pair">
+                    
+                    <div class="tags-group-icon" style="background: #eb6840">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/Swift.png" title="Swift">
+                    </div>
+                
+            
+                
+                    
+                    <div class="tags-group-icon" style="background: #8f55ba">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/Principle.png" title="Principle">
+                    </div>
+                
+                    </div>
+                
+            
+                
+                
+                    <div class="tags-group-icon-pair">
+                    
+                    <div class="tags-group-icon" style="background: #f29e39">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/illustrator.png" title="illustrator">
+                    </div>
+                
+            
+                
+                    
+                    <div class="tags-group-icon" style="background: #2c51db">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/CSS3.png" title="CSS3">
+                    </div>
+                
+                    </div>
+                
+            
+                
+                
+                    <div class="tags-group-icon-pair">
+                    
+                    <div class="tags-group-icon" style="background: #f7cb4f">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/JS.png" title="JS">
+                    </div>
+                
+            
+                
+                    
+                    <div class="tags-group-icon" style="background: #df5b40">
+                        <img src= "/img/acrylic.png" data-lazy-src="/img/icon/git.png" title="Git">
+                    </div>
+                
+                    </div>
+                
+               
+            
+    </div>
+</div>
+<a id="banner-hover" onclick="toRandomPost()" data-pjax-state="">
+    <span class="bannerText">随便逛逛</span>
+    <i class="fas fa-arrow-right banner-righticon"></i>
+</a>
+            </div>
+            <div class="categoryGroup">
+                <div class="categoryItem" style="box-shadow: var(--heo-shadow-blue);"><a class="categoryButton CB1 bikan"
+        href="/tags/Acrylic/">
+        <span class="categoryButtonText">Acrylic</span>
+        <i class="fas fa-dove"></i>
+    </a>
+</div>
+<div class="categoryItem" style="box-shadow: var(--heo-shadow-red);">
+    <a class="categoryButton remen" href="/tags/%E7%83%AD%E9%97%A8/">
+        <span class="categoryButtonText">热门文章</span>
+        <i class="fas fa-burn"></i>
+    </a>
+</div>
+<div class="categoryItem" style="box-shadow: var(--heo-shadow-green);">
+    <a class="categoryButton shiyong"
+        href="/tags/%E6%95%99%E7%A8%8B/">
+        <span class="categoryButtonText">实用教程</span>
+        <i class="fas fa-book"></i>
+    </a>
+</div>
+            </div>
+        </div>
+        <div class="topGroup">
+            <style type="text/css">
+    .topGroup .todayCard::after {
+        box-shadow: 0 -109px 133px -9px #006a73 inset;
+    }
+
+    .todayCard-title,
+    .todayCard-tips,
+    .topGroup .banner-button {
+        color: #ffffff;
+    }
+
+    .topGroup .todayCard {
+        background: #006a73;
+    }
+</style>
+
+<div class="todayCard" id="todayCard" onclick="pjax.loadUrl('/')"
+    style="z-index: 1;">
+    <div class="todayCard-info">
+        <div class="todayCard-tips">置顶文章</div>
+        <div class="todayCard-title">让Acrylic成为您的Hexo主题</div>
+    </div>
+    <div class="todayCard-cover nolazyload"
+        style="background: url('/img/acrylic.png') no-repeat center /cover">
+    </div>
+    <div class="banner-button-group"><a class="banner-button"
+            onclick="window.event.cancelBubble=true;acrylic.hideTodayCard();">
+            <i class="fas fa-circle-plus"></i>
+            <span class="banner-button-text">更多推荐</span>
+        </a>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+    
+</div>
+<main class="layout" id="content-inner">
+    <div class="recent-posts" id="recent-posts">
+        <div id="category-bar">
+            <div class="category-bar-items" id="category-bar-items">
+    <div class="category-bar-item select" id="category-bar-home">
+        <a href="/">首页</a>
+    </div>
+    
+        <div class="category-bar-item ">
+            <a href="/categories/%E8%B5%84%E6%BA%90%E4%B8%AD%E5%BF%83/">资源中心</a>
+        </div>
+    
+        <div class="category-bar-item ">
+            <a href="/categories/%E5%BC%95%E7%94%A8%E8%BD%AC%E8%BD%BD/">引用转载</a>
+        </div>
+    
+        <div class="category-bar-item ">
+            <a href="/categories/%E5%AD%A6%E4%B9%A0%E5%88%86%E4%BA%AB/">学习分享</a>
+        </div>
+    
+</div>
+<a class="category-bar-more" href="/categories/">更多</a>
+
+        </div>
+        
+            <div class="recent-post-item" onclick="pjax.loadUrl('/posts/1236.html')">
+    <div class="post_cover left_radius">
+        <a href="/posts/1236.html" title="360文件">
+            <img class="post_bg" alt="360文件" src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/IMG_0695.PNG">
+        </a>
+    </div>
+    <div class="recent-post-info">
+        <div class="recent-post-info-top">
+            <div class="recent-post-info-top-tips">
+                
+                    <span class="original">资源中心</span>
+                
+            </div>
+            <a class="article-title" href="/posts/1236.html" title="360文件">
+                360文件
+            </a>
+        </div>
+        <div class="article-meta-wrap">
+            <span class="article-meta tags">
+                
+                    <a class="article-meta__tags" href="/tags/%E8%BD%AF%E4%BB%B6/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        软件
+                    </a>
+                
+            </span>
+            <span class="post-meta-date">
+                <time datetime="2022-05-31T09:10:04+08:00"></time>
+            </span>
+        </div>
+    </div>
+</div>
+        
+            <div class="recent-post-item" onclick="pjax.loadUrl('/posts/132e.html')">
+    <div class="post_cover left_radius">
+        <a href="/posts/132e.html" title="UWD">
+            <img class="post_bg" alt="UWD" src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/IMG_0867.PNG">
+        </a>
+    </div>
+    <div class="recent-post-info">
+        <div class="recent-post-info-top">
+            <div class="recent-post-info-top-tips">
+                
+                    <span class="original">资源中心</span>
+                
+            </div>
+            <a class="article-title" href="/posts/132e.html" title="UWD">
+                UWD
+            </a>
+        </div>
+        <div class="article-meta-wrap">
+            <span class="article-meta tags">
+                
+                    <a class="article-meta__tags" href="/tags/%E8%BD%AF%E4%BB%B6/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        软件
+                    </a>
+                
+                    <a class="article-meta__tags" href="/tags/%E5%8E%BB%E6%B0%B4%E5%8D%B0/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        去水印
+                    </a>
+                
+            </span>
+            <span class="post-meta-date">
+                <time datetime="2022-05-29T09:43:49+08:00"></time>
+            </span>
+        </div>
+    </div>
+</div>
+        
+            <div class="recent-post-item" onclick="pjax.loadUrl('/posts/2f2d.html')">
+    <div class="post_cover left_radius">
+        <a href="/posts/2f2d.html" title="哔哩下载姬">
+            <img class="post_bg" alt="哔哩下载姬" src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/bli.png">
+        </a>
+    </div>
+    <div class="recent-post-info">
+        <div class="recent-post-info-top">
+            <div class="recent-post-info-top-tips">
+                
+                    <span class="original">资源中心</span>
+                
+            </div>
+            <a class="article-title" href="/posts/2f2d.html" title="哔哩下载姬">
+                哔哩下载姬
+            </a>
+        </div>
+        <div class="article-meta-wrap">
+            <span class="article-meta tags">
+                
+                    <a class="article-meta__tags" href="/tags/ai/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        ai
+                    </a>
+                
+                    <a class="article-meta__tags" href="/tags/4K/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        4K
+                    </a>
+                
+                    <a class="article-meta__tags" href="/tags/%E5%93%94%E5%93%A9/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        哔哩
+                    </a>
+                
+            </span>
+            <span class="post-meta-date">
+                <time datetime="2022-05-15T23:58:14+08:00"></time>
+            </span>
+        </div>
+    </div>
+</div>
+        
+            <div class="recent-post-item" onclick="pjax.loadUrl('/posts/7770.html')">
+    <div class="post_cover left_radius">
+        <a href="/posts/7770.html" title="Cupfox茶杯狐">
+            <img class="post_bg" alt="Cupfox茶杯狐" src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/IMG_0800.JPG">
+        </a>
+    </div>
+    <div class="recent-post-info">
+        <div class="recent-post-info-top">
+            <div class="recent-post-info-top-tips">
+                
+                    <span class="original">资源中心</span>
+                
+            </div>
+            <a class="article-title" href="/posts/7770.html" title="Cupfox茶杯狐">
+                Cupfox茶杯狐
+            </a>
+        </div>
+        <div class="article-meta-wrap">
+            <span class="article-meta tags">
+                
+                    <a class="article-meta__tags" href="/tags/%E5%BD%B1%E8%A7%86/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        影视
+                    </a>
+                
+                    <a class="article-meta__tags" href="/tags/%E6%90%9C%E7%B4%A2/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        搜索
+                    </a>
+                
+            </span>
+            <span class="post-meta-date">
+                <time datetime="2022-05-15T23:33:03+08:00"></time>
+            </span>
+        </div>
+    </div>
+</div>
+        
+            <div class="recent-post-item" onclick="pjax.loadUrl('/posts/9252.html')">
+    <div class="post_cover left_radius">
+        <a href="/posts/9252.html" title="iPhone日历显示节假日">
+            <img class="post_bg" alt="iPhone日历显示节假日" src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/IMG_0826.PNG">
+        </a>
+    </div>
+    <div class="recent-post-info">
+        <div class="recent-post-info-top">
+            <div class="recent-post-info-top-tips">
+                
+                    <span class="original">资源中心</span>
+                
+            </div>
+            <a class="article-title" href="/posts/9252.html" title="iPhone日历显示节假日">
+                iPhone日历显示节假日
+            </a>
+        </div>
+        <div class="article-meta-wrap">
+            <span class="article-meta tags">
+                
+                    <a class="article-meta__tags" href="/tags/%E6%97%A5%E5%8E%86/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        日历
+                    </a>
+                
+                    <a class="article-meta__tags" href="/tags/%E8%8A%82%E5%81%87%E6%97%A5/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        节假日
+                    </a>
+                
+                    <a class="article-meta__tags" href="/tags/%E8%AE%A2%E9%98%85/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        订阅
+                    </a>
+                
+            </span>
+            <span class="post-meta-date">
+                <time datetime="2022-05-15T21:45:11+08:00"></time>
+            </span>
+        </div>
+    </div>
+</div>
+        
+            <div class="recent-post-item" onclick="pjax.loadUrl('/posts/89da.html')">
+    <div class="post_cover left_radius">
+        <a href="/posts/89da.html" title="iTab新标签页">
+            <img class="post_bg" alt="iTab新标签页" src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/IMG_0827.PNG">
+        </a>
+    </div>
+    <div class="recent-post-info">
+        <div class="recent-post-info-top">
+            <div class="recent-post-info-top-tips">
+                
+                    <span class="original">资源中心</span>
+                
+            </div>
+            <a class="article-title" href="/posts/89da.html" title="iTab新标签页">
+                iTab新标签页
+            </a>
+        </div>
+        <div class="article-meta-wrap">
+            <span class="article-meta tags">
+                
+                    <a class="article-meta__tags" href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        浏览器插件
+                    </a>
+                
+                    <a class="article-meta__tags" href="/tags/Chrome%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%A9%E5%B1%95/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        Chrome浏览器扩展
+                    </a>
+                
+                    <a class="article-meta__tags" href="/tags/Edge%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%A9%E5%B1%95/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        Edge浏览器扩展
+                    </a>
+                
+                    <a class="article-meta__tags" href="/tags/%E6%A0%87%E7%AD%BE/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        标签
+                    </a>
+                
+            </span>
+            <span class="post-meta-date">
+                <time datetime="2022-05-15T17:23:18+08:00"></time>
+            </span>
+        </div>
+    </div>
+</div>
+        
+            <div class="recent-post-item" onclick="pjax.loadUrl('/posts/5365.html')">
+    <div class="post_cover left_radius">
+        <a href="/posts/5365.html" title="即时工具">
+            <img class="post_bg" alt="即时工具" src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/Pasted-3.png">
+        </a>
+    </div>
+    <div class="recent-post-info">
+        <div class="recent-post-info-top">
+            <div class="recent-post-info-top-tips">
+                
+                    <span class="original">资源中心</span>
+                
+            </div>
+            <a class="article-title" href="/posts/5365.html" title="即时工具">
+                即时工具
+            </a>
+        </div>
+        <div class="article-meta-wrap">
+            <span class="article-meta tags">
+                
+                    <a class="article-meta__tags" href="/tags/web/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        web
+                    </a>
+                
+                    <a class="article-meta__tags" href="/tags/%E5%8D%B3%E6%97%B6%E5%B7%A5%E5%85%B7/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        即时工具
+                    </a>
+                
+                    <a class="article-meta__tags" href="/tags/%E7%BD%91%E9%A1%B5/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        网页
+                    </a>
+                
+            </span>
+            <span class="post-meta-date">
+                <time datetime="2022-05-15T16:45:13+08:00"></time>
+            </span>
+        </div>
+    </div>
+</div>
+        
+            <div class="recent-post-item" onclick="pjax.loadUrl('/posts/cc0f.html')">
+    <div class="post_cover left_radius">
+        <a href="/posts/cc0f.html" title="Apple Music会员「保持更新」">
+            <img class="post_bg" alt="Apple Music会员「保持更新」" src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/IMG_0781.PNG">
+        </a>
+    </div>
+    <div class="recent-post-info">
+        <div class="recent-post-info-top">
+            <div class="recent-post-info-top-tips">
+                
+                    <span class="original">资源中心</span>
+                
+            </div>
+            <a class="article-title" href="/posts/cc0f.html" title="Apple Music会员「保持更新」">
+                Apple Music会员「保持更新」
+            </a>
+        </div>
+        <div class="article-meta-wrap">
+            <span class="article-meta tags">
+                
+                    <a class="article-meta__tags" href="/tags/ai/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        ai
+                    </a>
+                
+                    <a class="article-meta__tags" href="/tags/app/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        app
+                    </a>
+                
+                    <a class="article-meta__tags" href="/tags/%E4%BC%9A%E5%91%98/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        会员
+                    </a>
+                
+            </span>
+            <span class="post-meta-date">
+                <time datetime="2022-05-15T15:26:15+08:00"></time>
+            </span>
+        </div>
+    </div>
+</div>
+        
+            <div class="recent-post-item" onclick="pjax.loadUrl('/posts/4313.html')">
+    <div class="post_cover left_radius">
+        <a href="/posts/4313.html" title="Mac点击音效-Tickeys">
+            <img class="post_bg" alt="Mac点击音效-Tickeys" src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/IMG_0843.PNG">
+        </a>
+    </div>
+    <div class="recent-post-info">
+        <div class="recent-post-info-top">
+            <div class="recent-post-info-top-tips">
+                
+                    <span class="original">资源中心</span>
+                
+            </div>
+            <a class="article-title" href="/posts/4313.html" title="Mac点击音效-Tickeys">
+                Mac点击音效-Tickeys
+            </a>
+        </div>
+        <div class="article-meta-wrap">
+            <span class="article-meta tags">
+                
+                    <a class="article-meta__tags" href="/tags/app/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        app
+                    </a>
+                
+                    <a class="article-meta__tags" href="/tags/%E9%9F%B3%E6%95%88/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        音效
+                    </a>
+                
+            </span>
+            <span class="post-meta-date">
+                <time datetime="2022-05-14T23:01:26+08:00"></time>
+            </span>
+        </div>
+    </div>
+</div>
+        
+            <div class="recent-post-item" onclick="pjax.loadUrl('/posts/da01.html')">
+    <div class="post_cover left_radius">
+        <a href="/posts/da01.html" title="Mac显示歌词">
+            <img class="post_bg" alt="Mac显示歌词" src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/IMG_0836.PNG">
+        </a>
+    </div>
+    <div class="recent-post-info">
+        <div class="recent-post-info-top">
+            <div class="recent-post-info-top-tips">
+                
+                    <span class="original">资源中心</span>
+                
+            </div>
+            <a class="article-title" href="/posts/da01.html" title="Mac显示歌词">
+                Mac显示歌词
+            </a>
+        </div>
+        <div class="article-meta-wrap">
+            <span class="article-meta tags">
+                
+                    <a class="article-meta__tags" href="/tags/AppStore/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        AppStore
+                    </a>
+                
+                    <a class="article-meta__tags" href="/tags/Github/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        Github
+                    </a>
+                
+                    <a class="article-meta__tags" href="/tags/mac/" onclick="window.event.cancelBubble=true;">
+                        <span class="tags-punctuation">#</span>
+                        mac
+                    </a>
+                
+            </span>
+            <span class="post-meta-date">
+                <time datetime="2022-05-14T22:42:28+08:00"></time>
+            </span>
+        </div>
+    </div>
+</div>
+        
+        <nav id="pagination">
+    <div class="pagination">
+        
+        <a class="extend prev" rel="prev" href="/page/4/">Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span>
+    </div>
+</nav>
+    </div>
+    <div class="aside-content" id="aside-content">
+    
+    
+        
+        <div class="card-widget card-info">
+    <div class="card-content">
+        <div class="card-info-avatar is-center">
+            <div class="author-info__sayhi" id="author-info__sayhi">
+            </div>
+            <div class="author-info__name">
+                YuanMo
+            </div>
+            <div class="author-info__description">这有关于<b>开发</b>、<b>技术</b>相关的问题和看法，还有对于动漫的一些<b>杂评</b>。<br>相信你可以在这里找到对你有用的知识和教程。</div>
+        </div>
+    </div>
+    <div class="banner-button-group">
+        <a class="banner-button" href="/">
+            <i class="fas fa-circle-chevron-right"></i>
+            <span class="banner-button-text">个人主页</span>
+        </a>
+    </div>
+    <div class="card-info-social-icons is-center">
+        
+            <a class="social-icon" target="_blank" rel="noopener" href="https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic-Next" title="Github">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        
+            <a class="social-icon" href="mailto:a@nalex.top" title="Mail">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        
+    </div>
+</div>
+     
+    
+        
+        <div class="card-widget heo-right-widget" id="card-wechat" style="background: #0099FF ;">
+    <div id="flip-wrapper">
+        <div id="flip-content">
+            <div class="face">
+                <div class="left">
+                    <span class="title">微信公众号</span>
+                    <span class="desc">扫码关注我们 <i class="fa-solid fa-play"></i></span>
+                </div>
+            </div>
+            <div class="back face">
+                <div class="left">
+                    <span class="title">扫一扫</span>
+                    <span class="desc">获取最新信息和帮助 <i class="fa-solid fa-play"></i></span>
+                </div>
+                <img class="nolazyload" src="/img/qqgroup.png">
+            </div>
+        </div>
+    </div>
+</div>
+     
+    
+    <div class="sticky_layout">
+            
+        
+            
+        <div class="card-widget card-recent-post">
+    <div class="item-headline">
+        <i class="fas fa-list-ol"></i>
+        <span>最近发布</span>
+    </div>
+    <div class="aside-list">
+        
+        
+            <div class="aside-list-item">
+                <a class="thumbnail" href="/posts/16107.html" title="Hello World">
+                    <img
+                        alt="Hello World"
+                        src="/img/hello.jpg">
+                </a>
+                <div class="content">
+                    
+                    <a class="title" href="/posts/16107.html" title="Hello World">
+                        Hello World
+                    </a>
+                </div>
+            </div>
+                
+        
+            <div class="aside-list-item">
+                <a class="thumbnail" href="/posts/a43b.html" title="文章内容加密">
+                    <img
+                        alt="文章内容加密"
+                        src="https://img.yhq.zone/cover/202306032239742.png">
+                </a>
+                <div class="content">
+                    
+                        <a class="article-recent_post_categories" href="/posts/a43b.html">
+                            引用转载
+                        </a>
+                    
+                    <a class="title" href="/posts/a43b.html" title="文章内容加密">
+                        文章内容加密
+                    </a>
+                </div>
+            </div>
+                
+        
+            <div class="aside-list-item">
+                <a class="thumbnail" href="/posts/ca0f.html" title="npm图床使用">
+                    <img
+                        alt="npm图床使用"
+                        src="https://img.yhq.zone/cover/6315e146a135f.webp">
+                </a>
+                <div class="content">
+                    
+                        <a class="article-recent_post_categories" href="/posts/ca0f.html">
+                            引用转载
+                        </a>
+                    
+                    <a class="title" href="/posts/ca0f.html" title="npm图床使用">
+                        npm图床使用
+                    </a>
+                </div>
+            </div>
+                
+        
+            <div class="aside-list-item">
+                <a class="thumbnail" href="/posts/5515.html" title="小说阅读软件-星文阅读">
+                    <img
+                        alt="小说阅读软件-星文阅读"
+                        src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/cover/0B316D97-5CD9-439C-BAE2-5EF06C283D7D.jpeg">
+                </a>
+                <div class="content">
+                    
+                        <a class="article-recent_post_categories" href="/posts/5515.html">
+                            资源中心
+                        </a>
+                    
+                    <a class="title" href="/posts/5515.html" title="小说阅读软件-星文阅读">
+                        小说阅读软件-星文阅读
+                    </a>
+                </div>
+            </div>
+                
+        
+            <div class="aside-list-item">
+                <a class="thumbnail" href="/posts/97c1.html" title="关于去开屏广告软件-叮小跳的轻度体验">
+                    <img
+                        alt="关于去开屏广告软件-叮小跳的轻度体验"
+                        src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/20230207093952793.png">
+                </a>
+                <div class="content">
+                    
+                        <a class="article-recent_post_categories" href="/posts/97c1.html">
+                            资源中心
+                        </a>
+                    
+                    <a class="title" href="/posts/97c1.html" title="关于去开屏广告软件-叮小跳的轻度体验">
+                        关于去开屏广告软件-叮小跳的轻度体验
+                    </a>
+                </div>
+            </div>
+            
+    </div>
+</div>
+     
+        
+            
+        <div class="card-widget card-tags card-archives card-webinfo card-allinfo">
+    <div class="card-tag-cloud">
+    
+        <a href="/tags/%E8%BD%AF%E4%BB%B6/" style="font-size: 0.8rem; color: #d3d3d3">软件<sup>10</sup></a>
+    
+        <a href="/tags/win%E8%BD%AF%E4%BB%B6/" style="font-size: 0.8rem; color: #d3d3d3">win软件<sup>4</sup></a>
+    
+        <a href="/tags/%E4%B8%8B%E8%BD%BD/" style="font-size: 0.8rem; color: #d3d3d3">下载<sup>5</sup></a>
+    
+        <a href="/tags/%E5%BA%A6%E7%9B%98%E4%B8%8B%E8%BD%BD/" style="font-size: 0.8rem; color: #d3d3d3">度盘下载<sup>2</sup></a>
+    
+        <a href="/tags/ai/" style="font-size: 0.8rem; color: #d3d3d3">ai<sup>3</sup></a>
+    
+        <a href="/tags/app/" style="font-size: 0.8rem; color: #d3d3d3">app<sup>7</sup></a>
+    
+        <a href="/tags/%E4%BC%9A%E5%91%98/" style="font-size: 0.8rem; color: #d3d3d3">会员<sup>2</sup></a>
+    
+        <a href="/tags/%E5%BD%B1%E8%A7%86/" style="font-size: 0.8rem; color: #d3d3d3">影视<sup>4</sup></a>
+    
+        <a href="/tags/%E6%90%9C%E7%B4%A2/" style="font-size: 0.8rem; color: #d3d3d3">搜索<sup>1</sup></a>
+    
+        <a href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6/" style="font-size: 0.8rem; color: #d3d3d3">浏览器插件<sup>2</sup></a>
+    
+        <a href="/tags/%E7%BF%BB%E8%AF%91/" style="font-size: 0.8rem; color: #d3d3d3">翻译<sup>2</sup></a>
+    
+        <a href="/tags/%E5%AE%89%E5%8D%93/" style="font-size: 0.8rem; color: #d3d3d3">安卓<sup>4</sup></a>
+    
+        <a href="/tags/Mac%E5%B7%A5%E5%85%B7/" style="font-size: 0.8rem; color: #d3d3d3">Mac工具<sup>1</sup></a>
+    
+        <a href="/tags/%E6%88%AA%E5%9B%BE/" style="font-size: 0.8rem; color: #d3d3d3">截图<sup>1</sup></a>
+    
+        <a href="/tags/%E6%88%AA%E5%B1%8F/" style="font-size: 0.8rem; color: #d3d3d3">截屏<sup>1</sup></a>
+    
+        <a href="/tags/%E7%94%B5%E8%84%91%E5%B7%A5%E5%85%B7/" style="font-size: 0.8rem; color: #d3d3d3">电脑工具<sup>1</sup></a>
+    
+        <a href="/tags/B%E7%AB%99/" style="font-size: 0.8rem; color: #d3d3d3">B站<sup>1</sup></a>
+    
+        <a href="/tags/TV%E8%BD%AF%E4%BB%B6/" style="font-size: 0.8rem; color: #d3d3d3">TV软件<sup>3</sup></a>
+    
+        <a href="/tags/%E6%97%A5%E5%8E%86/" style="font-size: 0.8rem; color: #d3d3d3">日历<sup>1</sup></a>
+    
+        <a href="/tags/%E8%8A%82%E5%81%87%E6%97%A5/" style="font-size: 0.8rem; color: #d3d3d3">节假日<sup>1</sup></a>
+    
+        <a href="/tags/%E8%AE%A2%E9%98%85/" style="font-size: 0.8rem; color: #d3d3d3">订阅<sup>1</sup></a>
+    
+        <a href="/tags/Chrome%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%A9%E5%B1%95/" style="font-size: 0.8rem; color: #d3d3d3">Chrome浏览器扩展<sup>2</sup></a>
+    
+        <a href="/tags/Edge%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%A9%E5%B1%95/" style="font-size: 0.8rem; color: #d3d3d3">Edge浏览器扩展<sup>1</sup></a>
+    
+        <a href="/tags/%E6%A0%87%E7%AD%BE/" style="font-size: 0.8rem; color: #d3d3d3">标签<sup>2</sup></a>
+    
+        <a href="/tags/AppStore/" style="font-size: 0.8rem; color: #d3d3d3">AppStore<sup>1</sup></a>
+    
+        <a href="/tags/Github/" style="font-size: 0.8rem; color: #d3d3d3">Github<sup>1</sup></a>
+    
+        <a href="/tags/mac/" style="font-size: 0.8rem; color: #d3d3d3">mac<sup>1</sup></a>
+    
+        <a href="/tags/%E9%9F%B3%E6%95%88/" style="font-size: 0.8rem; color: #d3d3d3">音效<sup>1</sup></a>
+    
+        <a href="/tags/TV/" style="font-size: 0.8rem; color: #d3d3d3">TV<sup>2</sup></a>
+    
+        <a href="/tags/%E7%9B%92%E5%AD%90/" style="font-size: 0.8rem; color: #d3d3d3">盒子<sup>1</sup></a>
+    
+        <a href="/tags/%E5%8E%BB%E6%B0%B4%E5%8D%B0/" style="font-size: 0.8rem; color: #d3d3d3">去水印<sup>2</sup></a>
+    
+        <a href="/tags/%E7%9B%B4%E6%92%AD/" style="font-size: 0.8rem; color: #d3d3d3">直播<sup>2</sup></a>
+    
+        <a href="/tags/apple/" style="font-size: 0.8rem; color: #d3d3d3">apple<sup>1</sup></a>
+    
+        <a href="/tags/Mac/" style="font-size: 0.8rem; color: #d3d3d3">Mac<sup>1</sup></a>
+    
+        <a href="/tags/ios/" style="font-size: 0.8rem; color: #d3d3d3">ios<sup>2</sup></a>
+    
+        <a href="/tags/%E6%94%B6%E9%9F%B3%E6%9C%BA/" style="font-size: 0.8rem; color: #d3d3d3">收音机<sup>1</sup></a>
+    
+        <a href="/tags/%E5%8E%BB%E5%B9%BF%E5%91%8A/" style="font-size: 0.8rem; color: #d3d3d3">去广告<sup>1</sup></a>
+    
+        <a href="/tags/web/" style="font-size: 0.8rem; color: #d3d3d3">web<sup>1</sup></a>
+    
+        <a href="/tags/%E5%8D%B3%E6%97%B6%E5%B7%A5%E5%85%B7/" style="font-size: 0.8rem; color: #d3d3d3">即时工具<sup>1</sup></a>
+    
+        <a href="/tags/%E7%BD%91%E9%A1%B5/" style="font-size: 0.8rem; color: #d3d3d3">网页<sup>1</sup></a>
+    
+        <a href="/tags/%E5%97%85%E6%8E%A2/" style="font-size: 0.8rem; color: #d3d3d3">嗅探<sup>1</sup></a>
+    
+        <a href="/tags/%E5%B7%A5%E5%85%B7/" style="font-size: 0.8rem; color: #d3d3d3">工具<sup>1</sup></a>
+    
+        <a href="/tags/%E6%B8%B8%E6%88%8F/" style="font-size: 0.8rem; color: #d3d3d3">游戏<sup>1</sup></a>
+    
+        <a href="/tags/%E8%A7%A3%E6%9E%90/" style="font-size: 0.8rem; color: #d3d3d3">解析<sup>1</sup></a>
+    
+        <a href="/tags/%E9%9F%B3%E4%B9%90/" style="font-size: 0.8rem; color: #d3d3d3">音乐<sup>3</sup></a>
+    
+        <a href="/tags/%E5%B0%8F%E8%AF%B4/" style="font-size: 0.8rem; color: #d3d3d3">小说<sup>1</sup></a>
+    
+        <a href="/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/" style="font-size: 0.8rem; color: #d3d3d3">电子书<sup>1</sup></a>
+    
+        <a href="/tags/%E5%9B%BE%E6%A0%87/" style="font-size: 0.8rem; color: #d3d3d3">图标<sup>1</sup></a>
+    
+        <a href="/tags/%E7%BD%91%E7%AB%99/" style="font-size: 0.8rem; color: #d3d3d3">网站<sup>1</sup></a>
+    
+        <a href="/tags/%E8%A7%86%E9%A2%91%E5%8F%B7/" style="font-size: 0.8rem; color: #d3d3d3">视频号<sup>2</sup></a>
+    
+</div>
+    <ul class="card-archive-list">
+    
+     
+        <li class="card-archive-list-item"><a class="card-archive-list-link" onclick="pjax.loadUrl('/archives/2022/')" data-pjax-state=""><span
+            class="card-archive-list-date">2022</span>
+            <div class="card-archive-list-count-group"><span class="card-archive-list-count">30</span><span
+                    class="card-archive-list-count-unit">篇</span></div>
+            </a>
+        </li>
+     
+        <li class="card-archive-list-item"><a class="card-archive-list-link" onclick="pjax.loadUrl('/archives/2023/')" data-pjax-state=""><span
+            class="card-archive-list-date">2023</span>
+            <div class="card-archive-list-count-group"><span class="card-archive-list-count">20</span><span
+                    class="card-archive-list-count-unit">篇</span></div>
+            </a>
+        </li>
+        
+</ul>
+
+    <hr>
+    <div class="webinfo">
+    
+        <div class="webinfo-item">
+            <div class="webinfo-item-title">
+                <i class="item-icon fas fa-file-alt"></i>
+                <div class="item-name">文章总数 :</div>
+            </div>
+            <div class="item-count">50</div>
+        </div>
+    
+    
+        
+        
+    
+    
+        <div class="webinfo-item">
+            <div class="webinfo-item-title">
+                <i class="item-icon fas fa-stopwatch"></i>
+                <div class="item-name">建站天数 :</div>
+            </div>
+            <div class="item-count" id="runtimeshow">
+            </div>
+        </div>
+    
+    
+    
+</div>
+</div>
+     
+        
+    </div>
+</div> 
+</main>     
+                <footer id="footer">
+                    <div id="footer_deal">
+    
+        <a class="deal_link" href="/" rel="external nofollow" title="Github">
+            <i class="fa-brands fa-github"></i>
+        </a>
+    
+        <a class="deal_link" href="/" rel="external nofollow" title="Mail">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+    
+    <img class="footer_mini_logo" src= "/img/acrylic.png" data-lazy-src="/img/avatar.webp"
+        title="返回顶部" onclick="acrylic.toTop()">
+    
+        <a class="deal_link" href="/" rel="external nofollow" title="网易云">
+            <i class="fa-solid fa-music"></i>
+        </a>
+    
+        <a class="deal_link" href="/" rel="external nofollow" title="bilibili">
+            <i class="fa-brands fa-bilibili"></i>
+        </a>
+    
+</div>    
+<div id="heo-footer">
+    
+        <div class="footer-group">
+            <h3 class="footer-title">导航</h3>
+            <div class="footer-links">
+                
+                    <a class="footer-item" href="/archives/" title="文章归档" rel="noopener external nofollow noreferrer">文章归档</a>
+                
+                    <a class="footer-item" href="/categories/" title="文章分类" rel="noopener external nofollow noreferrer">文章分类</a>
+                
+                    <a class="footer-item" href="/tags/" title="文章标签" rel="noopener external nofollow noreferrer">文章标签</a>
+                
+                    <a class="footer-item" href="/link/" title="友链" rel="noopener external nofollow noreferrer">友链</a>
+                    
+            </div>
+        </div>
+    
+        <div class="footer-group">
+            <h3 class="footer-title">服务</h3>
+            <div class="footer-links">
+                
+                    <a class="footer-item" target="_blank" href="https://51.la/" title="51la统计" rel="noopener external nofollow noreferrer noopener">51la统计</a>
+                
+                    <a class="footer-item" target="_blank" href="https://tongji.baidu.com/" title="百度统计" rel="noopener external nofollow noreferrer noopener">百度统计</a>
+                
+                    <a class="footer-item" target="_blank" href="https://ql.tianli0.top/" title="TianliCDN" rel="noopener external nofollow noreferrer noopener">TianliCDN</a>
+                    
+            </div>
+        </div>
+    
+        <div class="footer-group">
+            <h3 class="footer-title">Acrylic</h3>
+            <div class="footer-links">
+                
+                    <a class="footer-item" target="_blank" href="https://acrylic.zhheo.com/" title="主题官网" rel="noopener external nofollow noreferrer noopener">主题官网</a>
+                
+                    <a class="footer-item" target="_blank" href="https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic" title="Github" rel="noopener external nofollow noreferrer noopener">Github</a>
+                
+                    <a class="footer-item" target="_blank" href="https://blog.zhheo.com/" title="Heo" rel="noopener external nofollow noreferrer noopener">Heo</a>
+                    
+            </div>
+        </div>
+    
+        <div class="footer-group">
+            <h3 class="footer-title">推荐友链</h3>
+            <div class="footer-links">
+                
+                    <a class="footer-item" target="_blank" href="https://blog.zhheo.com/" title="Heo" rel="noopener external nofollow noreferrer noopener">Heo</a>
+                
+                    <a class="footer-item" target="_blank" href="https://akilar.top" title="Akilar" rel="noopener external nofollow noreferrer noopener">Akilar</a>
+                    
+            </div>
+        </div>
+    
+    
+        <div class="footer-group">
+            <div class="footer-title-group">
+                <h3 class="footer-title">友链</h3>
+                <a class="random-friends-btn" href="javascript:randomLinksList();" rel="external nofollow">
+                    <i class="fa-solid fa-arrow-rotate-right"></i>
+                </a>
+            </div>
+            <div class="footer-links" id="friend-links-in-footer">
+            </div>
+        </div>
+    
+</div>
+<div id="footer-section">
+    <div class="footer-section-links">
+        <div class="footer-section-left">
+            <div id="footer-section-tips">
+                <div class="copyright">©2021 - 2023 By 
+                    <a class="footer-section-link" href="/" rel="external nofollow">YuanMo</a>
+                    <a class="footer-section-link" href="https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic-Next" rel="external nofollow" target="_blank"> Theme By Acrylic-Next</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-section-right">
+            <a class="footer-section-link" href="/rss/">订阅</a>
+            
+            <a class="footer-section-link cc" target="_blank" href="https://creativecommons.org/licenses/by/4.0/" title="cc协议">
+                <i class="fa-solid fa-closed-captioning"></i>
+            </a>
+        </div>
+    </div>
+</div>
+                </footer>
+            </div>
+         
+        <div>
+    <script type="text/javascript" src="/js/utils.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+    
+
+<script src="/lib/pjax.min.js"></script>
+
+
+    
+<script src="/lib/lazyload.min.js"></script>
+
+
+
+<script src="/lib/snackbar.min.js"></script>
+
+
+    
+<script src="/lib/view-image.min.js"></script>
+
+
+
+    
+<link rel="stylesheet" href="/lib/swiper.min.css">
+
+    
+<script src="/lib/swiper.min.js"></script>
+
+
+<div id="js-pjax">
+    
+     
+</div>
+
+    
+<link rel="stylesheet" href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css">
+
+    
+<script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js"></script>
+
+    
+<script src="https://cdn1.tianli0.top/npm/meting@2.0.1/dist/Meting.min.js"></script>
+
+    <script>
+        var meting_api = "https://music.startly.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r";
+    </script>
+
+
+    
+<script src="/js/extend/covercolor/local.js"></script>
+
+        
+
+    <script>const links=[{"name":"Adil","link":"https://blog.adil.com.cn"},{"name":"Akilar","link":"https://akilar.top"},{"name":"张洪Heo","link":"https://blog.zhheo.com"},{"name":"安知鱼`Blog","link":"https://anzhiy.cn"},{"name":"Leonus","link":"https://blog.leonus.cn"},{"name":"轻笑Chuckle","link":"https://www.chuckle.top"},{"name":"Ariasakaの小窝","link":"https://yisous.xyz"},{"name":"Tianli","link":"https://tianli-blog.club"},{"name":"葱苓","link":"https://blog.itciraos.cn"},{"name":"小N同学","link":"https://www.nesxc.com"},{"name":"Fomalhaut??","link":"https://www.fomal.cc"},{"name":"Vincent文朔","link":"https://blog.vincent1230.top"},{"name":"Hc's Blog","link":"https://blog.ivil.top"},{"name":"小城故事","link":"https://www.webxc.ml"},{"name":"花语阁","link":"https://www.pigax.cn"},{"name":"虫不知喔","link":"https://blog.ssycs.com"},{"name":"Ice の小站","link":"https://081113.xyz"},{"name":"Nuyoah","link":"https://262259.xyz"},{"name":"呆鱼","link":"https://daiyu-233.top"},{"name":"Mghy の Blog","link":"https://lmghy.top"},{"name":"Rainx’s Blog","link":"https://rainxblog.top"},{"name":"LyShark - 孤风洗剑","link":"https://www.lyshark.com"},{"name":"lmx0","link":"https://www.lmx0.top/"}];function travelling(){const link=links[utils.randomNum(links.length)];utils.snackbarShow('您即将前往 ⌈ '+link.name+' ⌋ , 安全性未知',false,3000);setTimeout(()=>{window.open(link.link,"_blank")},3000)};function randomLinksList(){let data='';for(let i=1;i<=3;i++){const link=links[utils.randomNum(links.length)];data+='<a class="footer-item" href="'+link.link+'" target="_blank" rel="noopener nofollow">'+link.name+'</a>'};document.getElementById('friend-links-in-footer').innerHTML=data + '<a class="footer-item" href="/links/">更多</a>'};</script>
+
+
+    
+<script src="/js/extend/console/comment.js"></script>
+
+
+    <script>
+  let pjaxSelectors = [
+    'title',
+    '#body-wrap',
+    '#site-config',
+    'meta[name="description"]',
+    '#js-pjax'
+  ]
+  
+  const pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+  })
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || item.innerHTML || ""
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
+  })
+
+  document.addEventListener('pjax:error', (e) => {
+    if (e.request.status === 404) {
+      pjax.loadUrl('/404.html')
+    }
+  })
+</script>
+    
+</div>
+        
+
+    <div id="algolia-search">
+    <div class="search-dialog">
+        <nav class="search-nav">
+            <span class="search-dialog-title">搜索</span>
+            <button class="search-close-button">
+                <i class="fas fa-times"></i>
+            </button>
+        </nav>
+        <div class="search-wrap">
+            <div class="search-box" id="search-input"></div>
+            <div id="search-results">
+                <div id="algolia-hits">
+                </div>
+                <div class="algolia-stats"></div>
+                <div class="algolia-poweredBy"></div>
+            </div>
+        </div>
+    </div>
+    <div id="search-mask"></div>
+</div>
+    
+<link rel="stylesheet" href="/css/search/algolia-search.css">
+
+    
+<script src="/js/extend/search/algolia-search.js"></script>
+
+     
+        <div class="needEndHide" id="nav-music" onclick="acrylic.musicToggle()">
+    <div id="nav-music-hoverTips">音乐已暂停</div>
+    <meting-js id="1708664797" server="tencent" type="playlist" mutex="true"
+        preload="none" data-lrctype="0" order="random" theme="var(--heo-main)"></meting-js>
+</div>
+    
+    <!-- hexo injector body_end start --><script async src="//at.alicdn.com/t/font_2032782_8d5kxvn09md.js"></script><!-- hexo injector body_end end --></body>
+</html>
+<script>const posts=["posts/16107.html","posts/a43b.html","posts/ca0f.html","posts/5515.html","posts/97c1.html","posts/1e53.html","posts/8f83.html","posts/4ed7.html","posts/30de.html","posts/565d.html","posts/2f9e.html","posts/4dda.html","posts/7a3f.html","posts/43bc.html","posts/b37e.html","posts/e6db.html","posts/456f.html","posts/d01c.html","posts/d0e7.html","posts/2f50.html","posts/7d9f.html","posts/9a66.html","posts/bfbd.html","posts/1fda.html","posts/daaf.html","posts/9d14.html","posts/2a6b.html","posts/ed8a.html","posts/fa6.html","posts/48f7.html","posts/2fc2.html","posts/e48d.html","posts/d58f.html","posts/307a.html","posts/9e86.html","posts/606d.html","posts/4287.html","posts/8b30.html","posts/51cf.html","posts/d68b.html","posts/1236.html","posts/132e.html","posts/2f2d.html","posts/7770.html","posts/9252.html","posts/89da.html","posts/5365.html","posts/cc0f.html","posts/4313.html","posts/da01.html"];function toRandomPost(){ window.pjax ? pjax.loadUrl('/'+posts[Math.floor(Math.random()*posts.length)]) : window.open('/'+posts[Math.floor(Math.random()*posts.length)], "_self"); };</script>
