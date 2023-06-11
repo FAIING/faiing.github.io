@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>即刻短文 | AGoden</title>
+<noscript>开启Javascript是必要的</noscript>
+<link rel="icon" type="image/x-icon" href="/img/avatar.webp">
+<link rel="apple-touch-icon" href="/img/avatar.webp">
+<meta name="apple-mobile-web-app-title" content="AGoden">
+<link rel="bookmark" href="/img/avatar.webp">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/img/avatar.webp">
+<meta name="description" content="即刻短文">
+<meta name="theme-color" content="#1C1C1F">
+<link rel="stylesheet" href="/css/var.css">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/custom.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+
+<link rel="stylesheet" href="/lib/snackbar.min.css">
+
+
+<script src="/lib/qrcode.min.js"></script>
+
+
+    
+<script src="https://cdn.staticfile.org/twikoo/1.6.10/twikoo.all.min.js"></script>
+
+
+
+    
+<script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/instantsearch.js/4.39.0/instantsearch.production.min.js"></script>
+
+    
+<script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/algoliasearch/4.12.1/algoliasearch-lite.umd.min.js"></script>
+
+
+
+
+<script>var GLOBALCONFIG = {"root":"/","runtime":"2021-12-12 00:00:00","lazyload":{"enable":true,"error":"/img/acrylic.png"},"hightlight":{"enable":false,"limit":200},"lightbox":true,"randomlinks":true,"lang":{"theme":{"dark":"已切换至深色模式","light":"已切换至浅色模式"},"copy":{"success":"复制成功","error":"复制失败"},"backtop":"返回顶部","time":{"recent":"最近","yesterday":"昨天","berforeyesterday":"前天","daybefore":"天前","runtime":"天"},"sayhello":{"morning":"早上好","noon":"中午好","afternoon":"下午好","night":"晚上好","goodnight":"晚安","iam":"!  我是"},"search":{"empty":"搜索结果为空","hit":"已为您找到 ${query} 条结果","placeholder":"输入关键词快速查找"}},"covercolor":true,"comment":{"enable":true,"twikooUrl":"https://twikoofai.zeabur.app"},"algolia":{"appId":"0FGK10N4Z0","apiKey":"c74f80ffe8c20912027aaf3d9e34c60a","indexName":"mac"}};</script><script id="site-config">var PAGECONFIG = {"is_home":false,"is_post":false,"is_page":true,"page":"says","toc":false,"comment":true};</script>
+    <meta name="generator" content="Hexo 6.3.0"></head>
+    <body id="body">
+        
+            <div id="loading-box" onclick="preloader.endLoading();" class style="zoom: 1;">
+    <div class="loading-bg">
+        <img class="loading-img nolazyload" alt="loading image"
+            src="/img/avatar.webp">
+        </div>
+</div>
+<script>
+    const preloader = {
+        endLoading: () => {
+            document.getElementById('loading-box').classList.add("loaded")
+        },
+        initLoading: () => {
+            document.getElementById('loading-box').classList.remove("loaded")
+        },
+        removePaceDone: () => {
+            document.getElementById('body').classList = 'pace-done'
+        }
+    }
+    window.addEventListener('load',()=> { preloader.endLoading() })
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+</script>
+<style>
+    #loading-box {
+        -webkit-user-select: none;
+    }
+
+    #loading-box .loading-bg {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: var(--heo-background);
+        z-index: 1999;
+        opacity: 1;
+        transition: 0.2s;
+        pointer-events: all;
+        animation: showLoading 0.3s 0s backwards;
+    }
+
+    #loading-box.loaded .loading-bg {
+        pointer-events: none;
+        transition: 0.2s;
+        animation: hideLoading 0.3s 0s forwards;
+    }
+
+    #loading-box .loading-img {
+        width: 100px;
+        margin: auto;
+        animation-duration: 0.2s;
+        animation-name: loadingAction;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes loadingAction {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0.6;
+        }
+    }
+
+    @keyframes hideLoading {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+    }
+
+    @keyframes showLoading {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+</style>
+        
+        <div id="console" style="zoom: 1;" class="">
+    <div class="close-btn" onclick="acrylic.hideConsole()" href="javascript:void(0);">
+        <i class="fas fa-circle-xmark"></i>
+    </div>
+    
+        <div class="console-card-group">
+            <div class="console-card-group-left">
+                <div class="console-card" id="card-newest-comments" onclick="acrylic.hideConsole()">
+                    <div class="card-content">
+                        <div class="author-content-item-tips">互动</div>
+                        <div class="author-content-item-title">最新评论</div>
+                    </div>
+                    <div class="aside-list"></div>
+                </div>
+    
+            </div>
+            <div class="console-card-group-right">
+                <div class="console-card tags" onclick="acrylic.hideConsole()">
+                    <div class="card-content">
+                        <div class="author-content-item-tips">标签</div>
+                        <div class="author-content-item-title">寻找感兴趣的领域</div>
+                    </div>
+                    <div class="card-tag-cloud">
+                        
+                    </div>
+                </div>
+                <div class="console-card history" onclick="acrylic.hideConsole()">
+                    <ul class="card-archive-list">
+    
+     
+        <li class="card-archive-list-item"><a class="card-archive-list-link" onclick="pjax.loadUrl('/archives/2023-06/')" data-pjax-state=""><span
+            class="card-archive-list-date">2023-06</span>
+            <div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span
+                    class="card-archive-list-count-unit">篇</span></div>
+            </a>
+        </li>
+        
+</ul>
+
+                </div>
+            </div>
+        </div>
+    
+    
+    <div class="button-group">
+        <div class="console-btn-item"> <a class="darkmode_switchbutton" onclick="acrylic.switchDarkMode()" title="显示模式切换"
+                href="javascript:void(0);" rel="external nofollow" data-pjax-state=""><i class="fas fa-moon"
+                    style="font-size: 1rem;"></i></a></div>
+                    
+            <div class="console-btn-item" id="consoleMusic" onclick="acrylic.musicToggle()" title="音乐开关"><a class="music-switch"><i class="fas fa-music"></i></a></div>
+        
+    </div>
+    <div class="console-mask" onclick="acrylic.hideConsole()" href="javascript:void(0);" rel="external nofollow"></div>
+</div>
+        <div id="sidebar" style="zoom: 1;">
+    <div id="menu-mask" style="display: none;"></div>
+    <div id="sidebar-menus" class>
+        <span class="sidebar-menu-item-title">功能</span>
+        <div class="sidebar-menu-item">
+            <a class="darkmode_switchbutton menu-child" onclick="acrylic.switchDarkMode()" title="显示模式切换"
+                href="javascript:void(0);" rel="external nofollow">
+                <i class="fas fa-moon" style="font-size: 1rem;"></i>
+                <span>显示模式</span>
+            </a>
+        </div>
+        
+            <div class="back-menu-list-groups">
+    
+  </div>
+  
+        
+        <div class="menus_items">
+    
+        <div class="menus_item">
+            
+                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
+                    <span> 文库</span>
+                </a>
+                <ul class="menus_item_child">
+                    
+                        <li>
+                            <a class="site-page child" href="/archives/">
+                                <i class="fas fa-box-archive"></i>
+                                <span> 文章列表</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/categories/">
+                                <i class="fas fa-cube"></i>
+                                <span> 全部分类</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/tags/">
+                                <i class="fas fa-tags"></i>
+                                <span> 全部标签</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+             
+        </div>
+    
+        <div class="menus_item">
+            
+                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
+                    <span> 友链</span>
+                </a>
+                <ul class="menus_item_child">
+                    
+                        <li>
+                            <a class="site-page child" href="/fcircle/">
+                                <i class="fas fa-fish-fins"></i>
+                                <span> 友链鱼塘</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/links/">
+                                <i class="fas fa-user-group"></i>
+                                <span> 友情链接</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="javascript:travelling()">
+                                <i class="fas fa-bus"></i>
+                                <span> 宝藏博主</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+             
+        </div>
+    
+</div>
+        <span class="sidebar-menu-item-title">标签</span>
+        <div class="card-widget card-tags card-archives card-webinfo card-allinfo">
+            <div class="item-headline">
+                <i class="fas fa-tags"></i>
+                <span>标签</span>
+            </div>
+            <div class="card-tag-cloud">
+                
+            </div>
+        </div>
+    </div>
+</div>    
+        
+            <div class="page" id="body-wrap">
+                <header class="not-top-img" id="page-header">
+    <nav id="nav" class="show">
+    <div id="nav-group">
+        <div id="blog_name">
+            
+                <div class="back-home-button" tabindex="-1">
+                    <i class="back-home-button-icon fas fa-grip-vertical"></i>
+                    <div class="back-menu-list-groups">
+    
+  </div>
+  
+                </div>
+            
+            <a id="site-name" href="/" title="返回博客主页">
+                    
+                        <span class="heoicon">Acrylic</span>
+                    
+            </a>
+        </div>
+        <div id="page-name-mask">
+            <div id="page-name">
+                <a id="page-name-text" onclick="acrylic.toTop()">即刻短文</a>
+            </div>
+        </div>
+        <div id="menus">
+            <div class="menus_items">
+    
+        <div class="menus_item">
+            
+                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
+                    <span> 文库</span>
+                </a>
+                <ul class="menus_item_child">
+                    
+                        <li>
+                            <a class="site-page child" href="/archives/">
+                                <i class="fas fa-box-archive"></i>
+                                <span> 文章列表</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/categories/">
+                                <i class="fas fa-cube"></i>
+                                <span> 全部分类</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/tags/">
+                                <i class="fas fa-tags"></i>
+                                <span> 全部标签</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+             
+        </div>
+    
+        <div class="menus_item">
+            
+                <a class="site-page" href="javascript:void(0);" rel="external nofollow">
+                    <span> 友链</span>
+                </a>
+                <ul class="menus_item_child">
+                    
+                        <li>
+                            <a class="site-page child" href="/fcircle/">
+                                <i class="fas fa-fish-fins"></i>
+                                <span> 友链鱼塘</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="/links/">
+                                <i class="fas fa-user-group"></i>
+                                <span> 友情链接</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="site-page child" href="javascript:travelling()">
+                                <i class="fas fa-bus"></i>
+                                <span> 宝藏博主</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+             
+        </div>
+    
+</div>
+        </div>
+        <!-- <div id="nav-left">
+            <div id="fps-group">
+                <div id="fps">145</div><span class="fpsText">FPS</span>
+            </div>
+        </div> -->
+        <div id="nav-right">
+            
+    <div class="nav-button only-home" id="travellings_button">
+        <a class="site-page"  target="_blank" rel="noopener external nofollow" href="https://www.travellings.cn/go.html" title="开往-友链接力"  width="120">
+            <i class="fa-solid fa-train-subway" style="font-size: 1rem;"></i>
+        </a>
+    </div>
+
+
+    <div class="nav-button" id="randomPost_button">
+        <a class="site-page" onclick="toRandomPost()"
+            title="随机前往一个文章">
+            <i class="fas fa-shuffle" style="font-size: 1rem;"></i>
+        </a>
+    </div>
+
+
+    <div class="nav-button" id="search-button">
+        <a class="site-page social-icon search" title="站内搜索"
+            href="javascript:void(0);" rel="external nofollow">
+            <i class="fas fa-magnifying-glass" style="font-size: 1rem;"></i>
+        </a>
+    </div>
+
+
+    <div class="nav-button" id="nav-console">
+        <a class="console_switchbutton" onclick="acrylic.showConsole()"
+        title="显示中控台" href="javascript:void(0);" rel="external nofollow">
+        <i class="fas fa-bars-progress" style="font-size: 1rem;"></i>
+        </a>
+    </div>
+
+<div class="nav-button" id="nav-totop" onclick="acrylic.toTop()">
+    <a class="totopbtn">
+        <i class="fas fa-arrow-up"></i>
+        <span id="percent">0</span>
+    </a>
+</div>
+<div id="toggle-menu">
+    <a class="site-page">
+        <i class="fas fa-bars fa-fw" style="font-size: 1rem;"></i>
+    </a>
+</div>
+        </div>
+    </div>
+</nav>
+        
+</header>
+                <main class="layout hide-aside" id="content-inner">
+    <div id="page">
+        
+                <div class="author-content author-content-item essayPage single nolazyload" style="background: url(/img/hello.jpg) no-repeat center;background-size: cover;">
+    <div class="card-content">
+        <div class="author-content-item-tips">即刻短文</div>
+        <span class="author-content-item-title"></span>
+        <div class="content-bottom">
+            <div class="tips"></div>
+        </div>
+    </div>
+</div>
+<div id="bber">
+    <section class="timeline page-1">
+        <ul class="list" id="waterfall">
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">第一次现场体验 话剧-《瞎话艺术家》</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://img.yhq.zone/album/daily/0A36EF9A-21D3-4F37-9A4D-2C843699D70B.JPG">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://img.yhq.zone/album/daily/58F8FA55-5B88-4EC4-9CC0-1E2772C7D474.JPG">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2023-05-01T08:00:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">博客折腾到本地的hexo，用了anzhiyu的主题，不错，先玩一玩😍</p>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2023-05-01T08:00:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">来自即刻 @wong2 最新大作 ChatHub（适合Chrome和Edge的插件），太喜欢了。 如果你是ChatGPT和New Bing 双栖用户，这是一款不容错过的AI 应用杰作；从用户端你会得到双倍提效，而从创作者端将激发你思考</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/cover/rbQBJb.png">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2023-03-18T08:00:00+08:00"></time>
+        </div>
+        
+            <a class="bber-content-link" target="_blank" rel="noopener" href="https://chathub.gg" title="跳转到短文指引的链接">
+                链接
+            </a>   
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">一直想换个大屏的手机，纠结很久后换了个14 pro max ，目前体验来说，一切都OK，灵动岛只能部分应用能上，连微信都不想上的岛它不是好岛</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/fHnB9mLdHbhBsC5gzHN9.jpeg">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2023-03-13T08:00:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">去有风的地方！</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/shrc.png">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2023-03-08T08:00:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">搬个家，东西真多😥</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/lhBfoPTbwueNaPXYbVPV.jpeg">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2023-02-18T08:00:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">这个年过的不简单，拿本七年后。第一次碰车，跑了几圈，熟练度蹭的一下上来了，但倒库真的还有很大差距😂</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/56h3awJ6VaPkJw58MmEW.jpeg">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2023-01-26T08:00:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">新年快乐，万事如意，福缘满满！</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/aaBLe46miclyBPr9KBli.jpeg">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2023-01-21T08:00:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">工厂拧螺丝到现在</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/AA3pLoCXhdwbHCZutrWn.jpeg">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2023-01-13T06:20:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">音乐支持了参数设置自定义歌单</p>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2023-01-02T08:00:00+08:00"></time>
+        </div>
+        
+            <a class="bber-content-link" target="_blank" rel="noopener" href="https://anzhiy.cn/music/?id=7269231710&amp;server=tencent" title="跳转到短文指引的链接">
+                链接
+            </a>   
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">新年快乐！</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/VLVsBWlpulh7pRE7e5jy.jpeg">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2023-01-01T08:00:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">小红书上突然看到这张图，童年的回忆立马浮现，永远回不去的记忆</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/tovcqzqNxR96LseH6pzK-e1672359707489-807x1024.jpg">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2022-12-30T08:00:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">阳康后的第一天上班</p>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2022-12-26T08:00:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">透过玻璃的阳光☀️还是依旧的温暖</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/HDfbfnPitnxNrmCX6eEP.jpeg">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2022-12-24T08:00:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">羊了好几天了，还咳嗽.</p>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2022-12-23T08:00:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">微信键盘正式版来了，本来以为会有剪贴板，结果，没有，有点失望.</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/xPZolpCMvLrbvhWVgHo5-1024x636.jpeg">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2022-12-19T08:00:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">留此纪念吧！</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/NkiVXPjDgudkRcADKtlC-596x1024.jpeg">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2022-12-15T08:00:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">云青青兮欲雨，水澹澹兮生烟。</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/T2xAmdrZXYKZLFnElNqB.jpeg">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2022-12-12T08:00:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">一切正当时✌</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/cVmM56CELxqB9Z49Wrlc-1024x1024.jpg">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2022-12-11T08:00:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">终于，全部恢复了😂</p>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2022-12-10T08:00:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">恢复了60%了。。。。</p>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2022-12-10T08:00:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">服了，数据忘记备份了，图片全没了😒</p>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2022-12-10T08:00:00+08:00"></time>
+        </div>
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">如果你不会抠图，推荐你使用这个网站，只需上传图片，便可一键免费抠图。</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/PgrNoZRiHCvP3mcwcHTJ.png">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2022-12-07T08:00:00+08:00"></time>
+        </div>
+        
+            <a class="bber-content-link" target="_blank" rel="noopener" href="https://picwish.cn/" title="跳转到短文指引的链接">
+                链接
+            </a>   
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">这十万个为什么主要包括分类有：科技、军事、体育、动物、历史、国家、数量化、天文、植物、交通、健康等等，直接输入相关关键词即可查找。</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/hLBfCgsRJYljdNVgwpeZ-1024x897.png">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2022-12-07T08:00:00+08:00"></time>
+        </div>
+        
+            <a class="bber-content-link" target="_blank" rel="noopener" href="https://10why.net/" title="跳转到短文指引的链接">
+                链接
+            </a>   
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">这是一个非常不错的影视搜索聚合网站，网站无需注册登录，目前无任何推广，界面非常简洁清爽。网站固定有六大板块：首页、电影、电视剧、动漫、综艺、纪录片，像电影、电视剧又细分国产剧、美剧、韩剧、日剧等，当然最最主要是包括不错的搜索功能。此外作为聚合网站，当然就是在线播放网站和资源下载以及字幕下载。</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/rBYnWzY7qYdRzRcLF9Fq-1024x616.png">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2022-12-06T08:00:00+08:00"></time>
+        </div>
+        
+            <a class="bber-content-link" target="_blank" rel="noopener" href="https://www.wandou.pro/" title="跳转到短文指引的链接">
+                链接
+            </a>   
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">ssstab 是一个工具箱搜索网站，这个网站非常的简洁，无任何广告，只有一个简单的搜索框。比如输入“图片压缩”搜索，那么非常迅速的就推荐了众多相关的在线工具，这些在线工具都是来自不同的在线工具箱，直接选择点击就可以进入对应的工具。</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/u4399ViqWViueaJ7xupK-1024x684.png">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2022-12-06T08:00:00+08:00"></time>
+        </div>
+        
+            <a class="bber-content-link" target="_blank" rel="noopener" href="https://bar.ssstab.com/" title="跳转到短文指引的链接">
+                链接
+            </a>   
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">现在手机的普及，很少有人去看报纸了，目前能正常看见的就是地铁站，早上发报纸📰，纸质化的东西越来越少，电子化的报纸虽能省去不少成本，但毕竟没有那种感觉</p>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2022-12-06T08:00:00+08:00"></time>
+        </div>
+        
+            <a class="bber-content-link" target="_blank" rel="noopener" href="http://www.53bk.com/Baokan" title="跳转到短文指引的链接">
+                链接
+            </a>   
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">本地会员 SVIP10,这个速度还是不错的，绿色安装，绿色使用</p>
+    
+        <div class="bber-content-img">
+            
+                <img src= "/img/acrylic.png" data-lazy-src="https://cdn.jsdelivr.net/gh/FAIING/imgbed@main/blog/ykEgnyZbAgKVemLylauB.jpeg">
+            
+        </div>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2022-11-30T08:00:00+08:00"></time>
+        </div>
+        
+            <a class="bber-content-link" target="_blank" rel="noopener" href="https://fai.lanzouw.com/thunder" title="跳转到短文指引的链接">
+                链接
+            </a>   
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">朋友圈船新版本终于写完了, 耶✌️</p>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2022-11-16T08:00:00+08:00"></time>
+        </div>
+        
+            <a class="bber-content-link" target="_blank" rel="noopener" href="https://blog.gxqn.men/fcircle/" title="跳转到短文指引的链接">
+                链接
+            </a>   
+            
+    </div>
+</div>
+                </li>
+            
+                
+                <li class="item">
+                    <div class="bber-content">
+    <p class="datacont">相册集</p>
+        
+</div>
+                    <hr>
+                    <div class="bber-bottom">
+    <div class="bber-info">
+        <div class="bber-info-time">
+            <i class="fas fa-calendar-days"></i>
+            <time class="datetime" datetime="2022-11-15T08:00:00+08:00"></time>
+        </div>
+        
+            <a class="bber-content-link" target="_blank" rel="noopener" href="https://blog.gxqn.men/album/" title="跳转到短文指引的链接">
+                链接
+            </a>   
+            
+    </div>
+</div>
+                </li>
+            
+                
+        </ul>
+    </section>
+</div>
+<div id="bber-tips" style="color: var(--heo-secondtext);">- 只展示最近30条短文 -</div>
+
+             
+        
+            <div id="post-comment">
+    <div class="comment-head">
+        <div class="comment-headline">
+            <i class="fas fa-message fa-fw"></i>
+            <span> 评论</span>
+        </div>
+    </div>
+    <div class="comment-wrap">
+        <div id="comment"></div>
+        <script>
+    async function initComment(){
+        var initOptions = Object.assign(
+            {"envId":"https://twikoofai.zeabur.app","path":"window.location.pathname"},
+            {
+                el: '#comment',
+                onCommentLoaded: function() {
+                    GLOBALCONFIG.lightbox && acrylic.lightbox('#article-container img, #twikoo .tk-content img:not(.tk-owo-emotion)') 
+                }
+            }
+        )
+        await twikoo.init(initOptions)
+             
+    }
+</script>
+    </div>
+</div>
+            
+    </div>
+       
+</main>     
+
+                <footer id="footer">
+                    <div id="footer_deal">
+    
+        <a class="deal_link" href="/" rel="external nofollow" title="Github">
+            <i class="fa-brands fa-github"></i>
+        </a>
+    
+        <a class="deal_link" href="/" rel="external nofollow" title="Mail">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+    
+    <img class="footer_mini_logo" src= "/img/acrylic.png" data-lazy-src="/img/avatar.webp"
+        title="返回顶部" onclick="acrylic.toTop()">
+    
+        <a class="deal_link" href="/" rel="external nofollow" title="网易云">
+            <i class="fa-solid fa-music"></i>
+        </a>
+    
+        <a class="deal_link" href="/" rel="external nofollow" title="bilibili">
+            <i class="fa-brands fa-bilibili"></i>
+        </a>
+    
+</div>    
+<div id="heo-footer">
+    
+        <div class="footer-group">
+            <h3 class="footer-title">导航</h3>
+            <div class="footer-links">
+                
+                    <a class="footer-item" href="/archives/" title="文章归档" rel="noopener external nofollow noreferrer">文章归档</a>
+                
+                    <a class="footer-item" href="/categories/" title="文章分类" rel="noopener external nofollow noreferrer">文章分类</a>
+                
+                    <a class="footer-item" href="/tags/" title="文章标签" rel="noopener external nofollow noreferrer">文章标签</a>
+                
+                    <a class="footer-item" href="/link/" title="友链" rel="noopener external nofollow noreferrer">友链</a>
+                    
+            </div>
+        </div>
+    
+        <div class="footer-group">
+            <h3 class="footer-title">服务</h3>
+            <div class="footer-links">
+                
+                    <a class="footer-item" target="_blank" href="https://51.la/" title="51la统计" rel="noopener external nofollow noreferrer noopener">51la统计</a>
+                
+                    <a class="footer-item" target="_blank" href="https://tongji.baidu.com/" title="百度统计" rel="noopener external nofollow noreferrer noopener">百度统计</a>
+                
+                    <a class="footer-item" target="_blank" href="https://ql.tianli0.top/" title="TianliCDN" rel="noopener external nofollow noreferrer noopener">TianliCDN</a>
+                    
+            </div>
+        </div>
+    
+        <div class="footer-group">
+            <h3 class="footer-title">Acrylic</h3>
+            <div class="footer-links">
+                
+                    <a class="footer-item" target="_blank" href="https://acrylic.zhheo.com/" title="主题官网" rel="noopener external nofollow noreferrer noopener">主题官网</a>
+                
+                    <a class="footer-item" target="_blank" href="https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic" title="Github" rel="noopener external nofollow noreferrer noopener">Github</a>
+                
+                    <a class="footer-item" target="_blank" href="https://blog.zhheo.com/" title="Heo" rel="noopener external nofollow noreferrer noopener">Heo</a>
+                    
+            </div>
+        </div>
+    
+        <div class="footer-group">
+            <h3 class="footer-title">推荐友链</h3>
+            <div class="footer-links">
+                
+                    <a class="footer-item" target="_blank" href="https://blog.zhheo.com/" title="Heo" rel="noopener external nofollow noreferrer noopener">Heo</a>
+                
+                    <a class="footer-item" target="_blank" href="https://akilar.top" title="Akilar" rel="noopener external nofollow noreferrer noopener">Akilar</a>
+                    
+            </div>
+        </div>
+    
+    
+        <div class="footer-group">
+            <div class="footer-title-group">
+                <h3 class="footer-title">友链</h3>
+                <a class="random-friends-btn" href="javascript:randomLinksList();" rel="external nofollow">
+                    <i class="fa-solid fa-arrow-rotate-right"></i>
+                </a>
+            </div>
+            <div class="footer-links" id="friend-links-in-footer">
+            </div>
+        </div>
+    
+</div>
+<div id="footer-section">
+    <div class="footer-section-links">
+        <div class="footer-section-left">
+            <div id="footer-section-tips">
+                <div class="copyright">©2021 - 2023 By 
+                    <a class="footer-section-link" href="/" rel="external nofollow">YuanMo</a>
+                    <a class="footer-section-link" href="https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic-Next" rel="external nofollow" target="_blank"> Theme By Acrylic-Next</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-section-right">
+            <a class="footer-section-link" href="/rss/">订阅</a>
+            
+            <a class="footer-section-link cc" target="_blank" href="https://creativecommons.org/licenses/by/4.0/" title="cc协议">
+                <i class="fa-solid fa-closed-captioning"></i>
+            </a>
+        </div>
+    </div>
+</div>
+                </footer>
+            </div>
+         
+        <div>
+    <script type="text/javascript" src="/js/utils.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+    
+
+<script src="/lib/pjax.min.js"></script>
+
+
+    
+<script src="/lib/lazyload.min.js"></script>
+
+
+
+<script src="/lib/snackbar.min.js"></script>
+
+
+    
+<script src="/lib/view-image.min.js"></script>
+
+
+
+    
+<link rel="stylesheet" href="/lib/swiper.min.css">
+
+    
+<script src="/lib/swiper.min.js"></script>
+
+
+<div id="js-pjax">
+    
+        
+<script src="/lib/waterfall.min.js"></script>
+
+        <script>
+            window.addEventListener('resize', utils.throttle(function () {
+                if (document.getElementById('waterfall')) {
+                    acrylic.reflashEssayWaterFall();
+                }
+            }), 500);
+        </script>
+    
+     
+</div>
+
+    
+<link rel="stylesheet" href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css">
+
+    
+<script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js"></script>
+
+    
+<script src="https://cdn1.tianli0.top/npm/meting@2.0.1/dist/Meting.min.js"></script>
+
+    <script>
+        var meting_api = "https://music.startly.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r";
+    </script>
+
+
+    
+<script src="/js/extend/covercolor/web.js"></script>
+
+        
+
+    <script>const links=[{"name":"Adil","link":"https://blog.adil.com.cn"},{"name":"Akilar","link":"https://akilar.top"},{"name":"张洪Heo","link":"https://blog.zhheo.com"},{"name":"安知鱼`Blog","link":"https://anzhiy.cn"},{"name":"Leonus","link":"https://blog.leonus.cn"},{"name":"轻笑Chuckle","link":"https://www.chuckle.top"},{"name":"Ariasakaの小窝","link":"https://yisous.xyz"},{"name":"Tianli","link":"https://tianli-blog.club"},{"name":"葱苓","link":"https://blog.itciraos.cn"},{"name":"小N同学","link":"https://www.nesxc.com"},{"name":"Fomalhaut??","link":"https://www.fomal.cc"},{"name":"Vincent文朔","link":"https://blog.vincent1230.top"},{"name":"Hc's Blog","link":"https://blog.ivil.top"},{"name":"小城故事","link":"https://www.webxc.ml"},{"name":"花语阁","link":"https://www.pigax.cn"},{"name":"虫不知喔","link":"https://blog.ssycs.com"},{"name":"Ice の小站","link":"https://081113.xyz"},{"name":"Nuyoah","link":"https://262259.xyz"},{"name":"呆鱼","link":"https://daiyu-233.top"},{"name":"Mghy の Blog","link":"https://lmghy.top"},{"name":"Rainx’s Blog","link":"https://rainxblog.top"},{"name":"LyShark - 孤风洗剑","link":"https://www.lyshark.com"},{"name":"lmx0","link":"https://www.lmx0.top/"}];function travelling(){const link=links[utils.randomNum(links.length)];utils.snackbarShow('您即将前往 ⌈ '+link.name+' ⌋ , 安全性未知',false,3000);setTimeout(()=>{window.open(link.link,"_blank")},3000)};function randomLinksList(){let data='';for(let i=1;i<=3;i++){const link=links[utils.randomNum(links.length)];data+='<a class="footer-item" href="'+link.link+'" target="_blank" rel="noopener nofollow">'+link.name+'</a>'};document.getElementById('friend-links-in-footer').innerHTML=data + '<a class="footer-item" href="/links/">更多</a>'};</script>
+
+
+    
+<script src="/js/extend/console/comment.js"></script>
+
+
+    <script>
+  let pjaxSelectors = [
+    'title',
+    '#body-wrap',
+    '#site-config',
+    'meta[name="description"]',
+    '#js-pjax'
+  ]
+  
+  const pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+  })
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || item.innerHTML || ""
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
+  })
+
+  document.addEventListener('pjax:error', (e) => {
+    if (e.request.status === 404) {
+      pjax.loadUrl('/404.html')
+    }
+  })
+</script>
+    
+</div>
+        
+
+    <div id="algolia-search">
+    <div class="search-dialog">
+        <nav class="search-nav">
+            <span class="search-dialog-title">搜索</span>
+            <button class="search-close-button">
+                <i class="fas fa-times"></i>
+            </button>
+        </nav>
+        <div class="search-wrap">
+            <div class="search-box" id="search-input"></div>
+            <div id="search-results">
+                <div id="algolia-hits">
+                </div>
+                <div class="algolia-stats"></div>
+                <div class="algolia-poweredBy"></div>
+            </div>
+        </div>
+    </div>
+    <div id="search-mask"></div>
+</div>
+    
+<link rel="stylesheet" href="/css/search/algolia-search.css">
+
+    
+<script src="/js/extend/search/algolia-search.js"></script>
+
+     
+        <div class="needEndHide" id="nav-music" onclick="acrylic.musicToggle()">
+    <div id="nav-music-hoverTips">音乐已暂停</div>
+    <meting-js id="1708664797" server="tencent" type="playlist" mutex="true"
+        preload="none" data-lrctype="0" order="random" theme="var(--heo-main)"></meting-js>
+</div>
+    
+    </body>
+</html>
+<script>const posts=["posts/16107.html"];function toRandomPost(){ window.pjax ? pjax.loadUrl('/'+posts[Math.floor(Math.random()*posts.length)]) : window.open('/'+posts[Math.floor(Math.random()*posts.length)], "_self"); };</script>
