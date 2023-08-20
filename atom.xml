@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hwe</title>
+  <icon>https://blog.ahwe.top/icon.png</icon>
+  <subtitle>努力成为一个很哇塞的人</subtitle>
+  <link href="https://blog.ahwe.top/atom.xml" rel="self"/>
+  
+  <link href="https://blog.ahwe.top/"/>
+  <updated>2023-08-20T14:07:03.224Z</updated>
+  <id>https://blog.ahwe.top/</id>
+  
+  <author>
+    <name>YuanMo</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>iPhone实现120HZ刷新率</title>
+    <link href="https://blog.ahwe.top/posts/a54.html"/>
+    <id>https://blog.ahwe.top/posts/a54.html</id>
+    <published>2023-08-20T14:20:43.000Z</published>
+    <updated>2023-08-20T14:07:03.224Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;该方法只对支持高刷新率的iPhone机有效果，废话不多说直接看教程。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;视频教程&quot;&gt;&lt;a href=&quot;#视频教程&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习分享" scheme="https://blog.ahwe.top/categories/%E5%AD%A6%E4%B9%A0%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="技巧" scheme="https://blog.ahwe.top/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+    <category term="iPhone" scheme="https://blog.ahwe.top/tags/iPhone/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Notion国内访问加速：Notion-faster</title>
+    <link href="https://blog.ahwe.top/posts/c4a7.html"/>
+    <id>https://blog.ahwe.top/posts/c4a7.html</id>
+    <published>2023-08-17T21:30:43.000Z</published>
+    <updated>2023-08-20T14:07:03.224Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;由于政策等原因影响，Notion并没有在中国大陆架设服务器，导致国内访问Notion的速度堪忧，本文分享一个方案，有效提升Notion在国内的访问体验。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;Notion-faster&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="学习分享" scheme="https://blog.ahwe.top/categories/%E5%AD%A6%E4%B9%A0%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="技巧" scheme="https://blog.ahwe.top/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+    <category term="Notion" scheme="https://blog.ahwe.top/tags/Notion/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>音乐下载网站推荐-下歌吧</title>
+    <link href="https://blog.ahwe.top/posts/1848.html"/>
+    <id>https://blog.ahwe.top/posts/1848.html</id>
+    <published>2023-08-17T20:08:43.000Z</published>
+    <updated>2023-08-20T14:07:03.228Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">
+    &lt;div class=&quot;introduction-card&quot; style=&quot;&quot;&gt;
+      &lt;div class=&quot;introduction-card-top&quot; style=&quot;&quot;&gt;
+        &lt;div class=&quot;int-card-info&quot;&gt;
+      </summary>
+        
+      
+    
+    
+    
+    <category term="网址推荐" scheme="https://blog.ahwe.top/categories/%E7%BD%91%E5%9D%80%E6%8E%A8%E8%8D%90/"/>
+    
+    
+    <category term="网站" scheme="https://blog.ahwe.top/tags/%E7%BD%91%E7%AB%99/"/>
+    
+    <category term="音乐" scheme="https://blog.ahwe.top/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>视频号下载最新方法</title>
+    <link href="https://blog.ahwe.top/posts/4eb3.html"/>
+    <id>https://blog.ahwe.top/posts/4eb3.html</id>
+    <published>2023-08-16T14:52:19.000Z</published>
+    <updated>2023-08-20T14:07:03.224Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;视频号下载最新可用方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="资源中心" scheme="https://blog.ahwe.top/categories/%E8%B5%84%E6%BA%90%E4%B8%AD%E5%BF%83/"/>
+    
+    
+    <category term="微信" scheme="https://blog.ahwe.top/tags/%E5%BE%AE%E4%BF%A1/"/>
+    
+    <category term="视频号" scheme="https://blog.ahwe.top/tags/%E8%A7%86%E9%A2%91%E5%8F%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何使用 GitHub Actions 自动部署 Hexo 博客</title>
+    <link href="https://blog.ahwe.top/posts/a71d.html"/>
+    <id>https://blog.ahwe.top/posts/a71d.html</id>
+    <published>2023-08-12T14:30:04.000Z</published>
+    <updated>2023-08-20T14:07:03.224Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文教程收集于网络 &lt;a href=&quot;https://juejin.cn/post/6943895271751286821&quot;&gt;稀土掘金&lt;/a&gt;、&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo笔记" scheme="https://blog.ahwe.top/categories/Hexo%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.ahwe.top/tags/Hexo/"/>
+    
+    <category term="Github" scheme="https://blog.ahwe.top/tags/Github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac下使用GitHub+Hexo搭建个人博客</title>
+    <link href="https://blog.ahwe.top/posts/f662.html"/>
+    <id>https://blog.ahwe.top/posts/f662.html</id>
+    <published>2023-08-12T13:30:04.000Z</published>
+    <updated>2023-08-20T14:07:03.224Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文内容来源于网络，仅记录，以备日后需要&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;开始之前需要在电脑上安装好Git和node.js，Mac上可以使用Homebrew命令行工具来安装Git和node.js&lt;/p&gt;
+&lt;h1</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo笔记" scheme="https://blog.ahwe.top/categories/Hexo%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.ahwe.top/tags/Hexo/"/>
+    
+    <category term="Github" scheme="https://blog.ahwe.top/tags/Github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>评论邮件通知模版：Twikoo &amp; Waline</title>
+    <link href="https://blog.ahwe.top/posts/5a80.html"/>
+    <id>https://blog.ahwe.top/posts/5a80.html</id>
+    <published>2023-08-06T16:57:43.000Z</published>
+    <updated>2023-08-20T14:07:03.224Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;主要是记录评论邮件通知模版，之前经常失效，想着直接记录下来，以备日后使用，资源内容参考&lt;a href=&quot;https://blog.zhheo.com/p/169a1abb.html&quot;&gt;Heo&lt;/a&gt;、&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo笔记" scheme="https://blog.ahwe.top/categories/Hexo%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.ahwe.top/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Hexo" scheme="https://blog.ahwe.top/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo自定义分类显示</title>
+    <link href="https://blog.ahwe.top/posts/dfba.html"/>
+    <id>https://blog.ahwe.top/posts/dfba.html</id>
+    <published>2023-08-06T10:05:04.000Z</published>
+    <updated>2023-08-20T14:07:03.224Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;tip info&quot;&gt;&lt;p&gt;该内容主要是记录一些修改笔记，以备日后使用。&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;样式预览&quot;&gt;&lt;a href=&quot;#样式预览&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo笔记" scheme="https://blog.ahwe.top/categories/Hexo%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.ahwe.top/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Hexo" scheme="https://blog.ahwe.top/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo条件勾选表单</title>
+    <link href="https://blog.ahwe.top/posts/bd97.html"/>
+    <id>https://blog.ahwe.top/posts/bd97.html</id>
+    <published>2023-08-05T19:07:43.000Z</published>
+    <updated>2023-08-20T14:07:03.224Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Twikoo&quot;&gt;&lt;a href=&quot;#Twikoo&quot; class=&quot;headerlink&quot; title=&quot;Twikoo&quot;&gt;&lt;/a&gt;Twikoo&lt;/h2&gt;&lt;p&gt;在link下&lt;code&gt;index.md&lt;/code&gt;中添加如下代码即可实现&lt;/p&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="学习分享" scheme="https://blog.ahwe.top/categories/%E5%AD%A6%E4%B9%A0%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="魔改" scheme="https://blog.ahwe.top/tags/%E9%AD%94%E6%94%B9/"/>
+    
+    <category term="Hexo" scheme="https://blog.ahwe.top/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AppFlex,可以安装香色闺阁</title>
+    <link href="https://blog.ahwe.top/posts/a17d.html"/>
+    <id>https://blog.ahwe.top/posts/a17d.html</id>
+    <published>2023-07-30T19:34:43.000Z</published>
+    <updated>2023-08-20T14:07:03.224Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;AppFlex安装使用教程&quot;&gt;&lt;a href=&quot;#AppFlex安装使用教程&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="资源中心" scheme="https://blog.ahwe.top/categories/%E8%B5%84%E6%BA%90%E4%B8%AD%E5%BF%83/"/>
+    
+    
+    <category term="破壳" scheme="https://blog.ahwe.top/tags/%E7%A0%B4%E5%A3%B3/"/>
+    
+    <category term="App" scheme="https://blog.ahwe.top/tags/App/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>全新卡片式外链标签引入</title>
+    <link href="https://blog.ahwe.top/posts/995e.html"/>
+    <id>https://blog.ahwe.top/posts/995e.html</id>
+    <published>2023-07-09T15:29:44.000Z</published>
+    <updated>2023-08-20T14:07:03.224Z</updated>
+    
+    
+    <summary type="html">全新卡片式外链标签引入。</summary>
+    
+    
+    
+    <category term="引用转载" scheme="https://blog.ahwe.top/categories/%E5%BC%95%E7%94%A8%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="教程" scheme="https://blog.ahwe.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Hexo" scheme="https://blog.ahwe.top/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>电子书下载网站推荐-zBook</title>
+    <link href="https://blog.ahwe.top/posts/6fc8.html"/>
+    <id>https://blog.ahwe.top/posts/6fc8.html</id>
+    <published>2023-07-07T20:08:43.000Z</published>
+    <updated>2023-08-20T14:07:03.228Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">
+    &lt;div class=&quot;introduction-card&quot; style=&quot;&quot;&gt;
+      &lt;div class=&quot;introduction-card-top&quot; style=&quot;&quot;&gt;
+        &lt;div class=&quot;int-card-info&quot;&gt;
+      </summary>
+        
+      
+    
+    
+    
+    <category term="网址推荐" scheme="https://blog.ahwe.top/categories/%E7%BD%91%E5%9D%80%E6%8E%A8%E8%8D%90/"/>
+    
+    
+    <category term="网站" scheme="https://blog.ahwe.top/tags/%E7%BD%91%E7%AB%99/"/>
+    
+    <category term="电子书" scheme="https://blog.ahwe.top/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文章内容加密</title>
+    <link href="https://blog.ahwe.top/posts/a43b.html"/>
+    <id>https://blog.ahwe.top/posts/a43b.html</id>
+    <published>2023-06-01T23:25:05.000Z</published>
+    <updated>2023-08-20T14:07:03.224Z</updated>
+    
+    
+    <summary type="html">有东西被加密了, 请输入密码查看.</summary>
+    
+    
+    
+    <category term="引用转载" scheme="https://blog.ahwe.top/categories/%E5%BC%95%E7%94%A8%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="示例" scheme="https://blog.ahwe.top/tags/%E7%A4%BA%E4%BE%8B/"/>
+    
+    <category term="demo" scheme="https://blog.ahwe.top/tags/demo/"/>
+    
+    <category term="hexo" scheme="https://blog.ahwe.top/tags/hexo/"/>
+    
+    <category term="encrypt" scheme="https://blog.ahwe.top/tags/encrypt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安知鱼主题标签</title>
+    <link href="https://blog.ahwe.top/posts/d50a.html"/>
+    <id>https://blog.ahwe.top/posts/d50a.html</id>
+    <published>2023-06-01T15:55:44.000Z</published>
+    <updated>2023-08-20T14:07:03.224Z</updated>
+    
+    
+    <summary type="html">添加大量外挂标签样式。</summary>
+    
+    
+    
+    <category term="引用转载" scheme="https://blog.ahwe.top/categories/%E5%BC%95%E7%94%A8%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.ahwe.top/tags/Hexo/"/>
+    
+    <category term="Tag Plugins" scheme="https://blog.ahwe.top/tags/Tag-Plugins/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>npm图床使用</title>
+    <link href="https://blog.ahwe.top/posts/ca0f.html"/>
+    <id>https://blog.ahwe.top/posts/ca0f.html</id>
+    <published>2023-05-13T10:44:59.000Z</published>
+    <updated>2023-08-20T14:07:03.224Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div calss=&#39;anzhiyu-tag-link&#39;&gt;&lt;a class=&quot;tag-Link&quot; target=&quot;_blank&quot; href=&quot;https://anzhiy.cn/posts/72ea.html&quot;&gt;
+    &lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="引用转载" scheme="https://blog.ahwe.top/categories/%E5%BC%95%E7%94%A8%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="转载" scheme="https://blog.ahwe.top/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+    <category term="hexo" scheme="https://blog.ahwe.top/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>日常食用代码记录</title>
+    <link href="https://blog.ahwe.top/posts/cc75.html"/>
+    <id>https://blog.ahwe.top/posts/cc75.html</id>
+    <published>2023-05-12T14:30:04.000Z</published>
+    <updated>2023-08-20T14:07:03.224Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;安装插件,在博客根目录[Blogroot]下打开终端，运行以下指令：&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo笔记" scheme="https://blog.ahwe.top/categories/Hexo%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="标签" scheme="https://blog.ahwe.top/tags/%E6%A0%87%E7%AD%BE/"/>
+    
+    <category term="tab" scheme="https://blog.ahwe.top/tags/tab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小说阅读软件-星文阅读</title>
+    <link href="https://blog.ahwe.top/posts/5515.html"/>
+    <id>https://blog.ahwe.top/posts/5515.html</id>
+    <published>2023-04-03T07:49:49.000Z</published>
+    <updated>2023-08-20T14:07:03.224Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h3&gt;&lt;p&gt;一款iOS端的小说阅读App！ 支持本地、网络导入书源，也支持有声小说&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="资源中心" scheme="https://blog.ahwe.top/categories/%E8%B5%84%E6%BA%90%E4%B8%AD%E5%BF%83/"/>
+    
+    
+    <category term="小说" scheme="https://blog.ahwe.top/tags/%E5%B0%8F%E8%AF%B4/"/>
+    
+    <category term="app" scheme="https://blog.ahwe.top/tags/app/"/>
+    
+    <category term="ios" scheme="https://blog.ahwe.top/tags/ios/"/>
+    
+    <category term="电子书" scheme="https://blog.ahwe.top/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于去开屏广告软件-叮小跳的轻度体验</title>
+    <link href="https://blog.ahwe.top/posts/97c1.html"/>
+    <id>https://blog.ahwe.top/posts/97c1.html</id>
+    <published>2023-02-15T08:30:41.000Z</published>
+    <updated>2023-08-20T14:07:03.224Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="资源中心" scheme="https://blog.ahwe.top/categories/%E8%B5%84%E6%BA%90%E4%B8%AD%E5%BF%83/"/>
+    
+    
+    <category term="安卓" scheme="https://blog.ahwe.top/tags/%E5%AE%89%E5%8D%93/"/>
+    
+    <category term="去广告" scheme="https://blog.ahwe.top/tags/%E5%8E%BB%E5%B9%BF%E5%91%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>YoduBGM一款WordPress背景音乐插件</title>
+    <link href="https://blog.ahwe.top/posts/1e53.html"/>
+    <id>https://blog.ahwe.top/posts/1e53.html</id>
+    <published>2023-02-12T21:47:34.000Z</published>
+    <updated>2023-08-20T14:07:03.224Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h3&gt;&lt;p&gt;原文来源于泽泽社长，仅供学习使用。原文地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="学习分享" scheme="https://blog.ahwe.top/categories/%E5%AD%A6%E4%B9%A0%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="插件" scheme="https://blog.ahwe.top/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+    <category term="音乐" scheme="https://blog.ahwe.top/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>php抓取一言数据</title>
+    <link href="https://blog.ahwe.top/posts/8f83.html"/>
+    <id>https://blog.ahwe.top/posts/8f83.html</id>
+    <published>2023-02-12T21:04:43.000Z</published>
+    <updated>2023-08-20T14:07:03.224Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h3&gt;&lt;p&gt;来源于&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="引用转载" scheme="https://blog.ahwe.top/categories/%E5%BC%95%E7%94%A8%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="php" scheme="https://blog.ahwe.top/tags/php/"/>
+    
+  </entry>
+  
+</feed>
